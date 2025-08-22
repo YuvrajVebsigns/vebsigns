@@ -4,7 +4,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
 import { Link } from "react-router-dom";
 import {
-    BrainCircuit,
+    BrainCircuit, Info, FileText, DollarSign, HelpCircle, Mail,
     BarChart3,
     Sparkles,
     Bot,
@@ -18,6 +18,7 @@ import {
     Utensils,
     ShoppingBag, Menu, X
 } from "lucide-react";
+import { FaInfoCircle, FaBlog, FaDollarSign, FaQuestionCircle, FaEnvelope } from "react-icons/fa";
 import { useState } from 'react';
 
 export default function Header() {
@@ -95,7 +96,7 @@ export default function Header() {
                                 </PopoverButton>
 
                                 {/* Dropdown Panel */}
-                                <PopoverPanel className="absolute z-50 mt-2 w-[550px] rounded-lg bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5">
+                                <PopoverPanel className="absolute z-50 mt-2 w-[650px] rounded-lg bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5">
                                     <div className="flex px-6 py-5 gap-8">
                                         {/* By Services Section */}
                                         <div className="flex-1">
@@ -236,38 +237,30 @@ export default function Header() {
                                 {/* Dropdown Panel */}
                                 <PopoverPanel className="absolute z-50 mt-2 w-48 rounded-lg bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                     <div className="p-3 divide-y divide-gray-200">
-                                        <Link
-                                            to="/about"
-                                            className="block px-3 py-2 rounded hover:bg-gray-100"
-                                        >
+                                        <Link to="/about" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
+                                            <Info className="w-4 h-4" />
                                             About
                                         </Link>
-                                        <Link
-                                            to="/blog"
-                                            className="block px-3 py-2 rounded hover:bg-gray-100"
-                                        >
+                                        <Link to="/blog" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
+                                            <FileText className="w-4 h-4" />
                                             Blog
                                         </Link>
-                                        <Link
-                                            to="/pricing"
-                                            className="block px-3 py-2 rounded hover:bg-gray-100"
-                                        >
+                                        <Link to="/pricing" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
+                                            <DollarSign className="w-4 h-4" />
                                             Pricing
                                         </Link>
-                                        <Link
-                                            to="/faq"
-                                            className="block px-3 py-2 rounded hover:bg-gray-100"
-                                        >
+                                        <Link to="/faq" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
+                                            <HelpCircle className="w-4 h-4" />
                                             FAQ
                                         </Link>
-                                        <Link
-                                            to="/contact"
-                                            className="block px-3 py-2 rounded hover:bg-gray-100"
-                                        >
+                                        <Link to="/contact" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
+                                            <Mail className="w-4 h-4" />
                                             Contact
                                         </Link>
                                     </div>
                                 </PopoverPanel>
+
+
                             </div>
                         )}
                     </Popover>
@@ -282,7 +275,7 @@ export default function Header() {
             `}>
                     <div className="p-6">
                         <div className="flex justify-between items-center mb-6">
-                            <img src="/assets/Header/vebsigns.png" alt="Logo" className="h-8" />
+                            <img src="/assets/Header/logo_fav.png" alt="Logo" className="h-8" />
                             <button onClick={toggleDrawer}>
                                 <X size={24} />
                             </button>
@@ -433,6 +426,9 @@ export default function Header() {
                                     </div>
                                 )}
                             </div>
+                            <button className="flex items-center space-x-1 bg-[#1849FF] text-[#ffff] px-3 py-1 rounded-lg font-medium hover:bg-gray-100 transition">
+                                <span>Book Meeting</span>
+                            </button>
 
                             {/* Contact Info */}
                             <div className="pt-4 border-t">
@@ -460,6 +456,7 @@ export default function Header() {
                                     <FaYoutube size={20} />
                                 </a>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -474,7 +471,6 @@ export default function Header() {
                         </a>
 
                         <button className="flex items-center space-x-1 bg-white text-[#1849FF] px-3 py-1 rounded-lg font-medium hover:bg-gray-100 transition">
-                            <MdComputer />
                             <span>Book Meeting</span>
                         </button>
 
