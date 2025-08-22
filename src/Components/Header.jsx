@@ -1,5 +1,5 @@
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -447,7 +447,7 @@ export default function Header() {
                                 <a href="https://www.facebook.com/VebsignsTechnologies/" className="text-gray-600 hover:text-blue-600">
                                     <FaFacebookF size={20} />
                                 </a>
-                                <a href="#" className="text-gray-600 hover:text-blue-600">
+                                <a href="https://x.com/vebsigns" className="text-gray-600 hover:text-blue-600">
                                     <FaXTwitter size={20} />
                                 </a>
                                 <a href="https://www.linkedin.com/company/vebsigns/" className="text-gray-600 hover:text-blue-600">
@@ -455,6 +455,9 @@ export default function Header() {
                                 </a>
                                 <a href="https://www.instagram.com/vebsigns/" className="text-gray-600 hover:text-blue-600">
                                     <FaInstagram size={20} />
+                                </a>
+                                <a href="https://www.youtube.com/channel/UC1vWQgIJIrHZcrjKL-eTsiQ" className="text-gray-600 hover:text-blue-600">
+                                    <FaYoutube size={20} />
                                 </a>
                             </div>
                         </div>
@@ -487,7 +490,7 @@ export default function Header() {
                                 <FaFacebookF />
                             </a>
                             <a
-                                href="#"
+                                href="https://x.com/vebsigns"
                                 aria-label="Twitter"
                                 className="hover:text-gray-200 text-xl"
                                 target="_blank"
@@ -512,6 +515,15 @@ export default function Header() {
                                 rel="noopener noreferrer"
                             >
                                 <FaInstagram />
+                            </a>
+                            <a
+                                href="https://www.youtube.com/channel/UC1vWQgIJIrHZcrjKL-eTsiQ"
+                                aria-label="Youtube"
+                                className="hover:text-gray-200 text-xl"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <FaYoutube />
                             </a>
                         </div>
 
