@@ -18,7 +18,6 @@ import {
     Utensils,
     ShoppingBag, Menu, X
 } from "lucide-react";
-import { FaInfoCircle, FaBlog, FaDollarSign, FaQuestionCircle, FaEnvelope } from "react-icons/fa";
 import { useState } from 'react';
 
 export default function Header() {
@@ -426,9 +425,13 @@ export default function Header() {
                                     </div>
                                 )}
                             </div>
-                            <button className="flex items-center space-x-1 bg-[#1849FF] text-[#ffff] px-3 py-1 rounded-lg font-medium hover:bg-gray-100 transition">
+                            <button
+                                className="flex items-center space-x-1 bg-[#1849FF] text-white px-3 py-1 rounded-lg font-medium hover:bg-gray-100 transition"
+                                onClick={() => window.open("https://calendly.com/vebsigns/30min", "_blank")}
+                            >
                                 <span>Book Meeting</span>
                             </button>
+
 
                             {/* Contact Info */}
                             <div className="pt-4 border-t">
@@ -470,9 +473,13 @@ export default function Header() {
                             +91 99708 76727
                         </a>
 
-                        <button className="flex items-center space-x-1 bg-white text-[#1849FF] px-3 py-1 rounded-lg font-medium hover:bg-gray-100 transition">
+                        <button
+                            className="flex items-center space-x-1 bg-white text-[#1849FF] px-3 py-1 rounded-lg font-medium hover:bg-gray-100 transition"
+                            onClick={() => window.open("https://calendly.com/vebsigns/30min", "_blank")}
+                        >
                             <span>Book Meeting</span>
                         </button>
+
 
                         {/* Social Icons */}
                         <div className="flex space-x-3">
