@@ -12,23 +12,38 @@ import Integration from './Integration'
 import Faq from '../Faq/Faq'
 import DigitalTransformation from './DigitalTransformation'
 import QuickLinks from './QuickLinks'
+import Accordion from './Accordion'
+import WorkingDiffIndustry from './WorkingDiffIndustry'
+import SuccessStories from './SuccessStories'
+import WhyChooseUs from './WhyChooseUs'
+import BeneficialResults from './BeneficialResults'
+import InsightsSection from './InsightsSection'
 
 const Home = () => {
   return (
     <div >
-      <Header/>
-      <HeroSection/>
-      <QuickLinks/>
-      <DigitalTransformation/>
-       {/* <Testimonial/> */}
+      <Header />
+      <HeroSection />
+      <QuickLinks />
+      <DigitalTransformation />
+      <Accordion />
+      <WorkingDiffIndustry />
+      <SuccessStories />
+      <Team/>
+      <WhyChooseUs />
+      <BeneficialResults />
+      <Logos/>
+      <InsightsSection />
+      {/* <BlogSection /> */}
+
+      {/* <Testimonial/> */}
       {/*<Team/>
       <Stats/>
       <Logos/>
       <Steps/>
-      <BlogSection/>
       <Integration/> */}
       {/* <Faq/> */}
-      <Footer/>
+      <Footer />
     </div>
   )
 }
