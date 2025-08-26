@@ -36,7 +36,9 @@ export default function Header() {
     };
 
     return (
-        <header className="bg-[#1849FF] text-white px-6 py-5">
+        // <header className="bg-[#1849FF] text-white px-6 py-5">
+        <header className="bg-gradient-to-b from-[#0a0220] to-[#120536] text-white px-6 py-5">
+
             <div className="max-w-7xl mx-auto flex items-center justify-between h-20">
 
                 {/* Left - Logo */}
