@@ -53,7 +53,7 @@ const DigitalTransformation = () => {
                         <div key={card.id} className="relative w-[269px] group">
                             {/* Main Card */}
                             <div
-                                className={`relative bg-white hover:bg-[${card.bgColor}] text-[#15042E] hover:text-white 
+                                className={`relative bg-white hover:bg-[#15042E] text-[#15042E] hover:text-white 
                         text-[16px] leading-[25.6px] p-[30px] w-[269px] h-[370.203px] z-10 
                         box-border rounded-lg shadow-lg cursor-pointer 
                         transition-transform duration-300 ease-in-out hover:rotate-[2deg] 
