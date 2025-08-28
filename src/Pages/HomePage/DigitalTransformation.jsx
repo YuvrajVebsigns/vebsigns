@@ -31,10 +31,10 @@ const DigitalTransformation = () => {
         },
         {
             id: 4,
-            image: "/assets/HomePage/i3.png",
+            image: "/assets/HomePage/veb final.png",
             number: "4.",
-            description: "Has experience working with different industries",
-            buttonText: "Industries We Serve",
+            description: "Cloud Solutions & Scalable Infrastructure for Businesses",
+            buttonText: "Explore Cloud Services",
             bgColor: "#15042E",
             hoverTextColor: "white",
         },
@@ -118,6 +118,36 @@ const DigitalTransformation = () => {
                         Get free consultation →
                     </a>
                 </p>
+            </div>
+            <div className="relative w-[1169px] max-w-full mx-auto mt-12 px-4 sm:px-6"
+                style={{ fontSize: "16px", padding: "20px 30px 20px 30px" }}>
+
+                {/* Label + Arrow */}
+                <div className="flex items-center mb-2">
+                    <label htmlFor="" className="text-[#15042E] font-bold text-base">
+                        Quick request a demo
+                    </label>
+                    <img
+                        src="/assets/HomePage/arrow.png"
+                        alt=""
+                        className="relative top-6 ml-2 h-10 w-12 sm:h-12 sm:w-[59px] z-10"
+                    />
+                </div>
+
+                {/* Input + Button Wrapper */}
+                <div className="relative flex flex-col sm:flex-row gap-3 sm:gap-0">
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        className="h-14 sm:h-16 w-full pr-4 sm:pr-36 pl-4 border-[0.5px] border-gray-300 rounded-full focus:outline-none z-0"
+                    />
+                    <button
+                        type="submit"
+                        className="sm:absolute sm:top-1/2 sm:left-90/110 sm:-translate-y-1/2 h-12 sm:h-14 w-full sm:w-[197px] px-6 rounded-full bg-[#1B4BF0] hover:bg-[#4c73f4] text-white"
+                    >
+                        Next Steps
+                    </button>
+                </div>
             </div>
         </section>
     );
