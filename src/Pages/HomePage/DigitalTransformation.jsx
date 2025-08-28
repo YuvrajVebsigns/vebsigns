@@ -1,6 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 
 const DigitalTransformation = () => {
+    const navigate = useNavigate();
+
     const cardData = [
         {
             id: 1,
@@ -10,6 +14,8 @@ const DigitalTransformation = () => {
             buttonText: "Explore Vebsigns",
             bgColor: "#15042E",
             hoverTextColor: "white",
+            link: "/vebsigns", // 👈 add your route here
+
         },
         {
             id: 2,
@@ -19,6 +25,8 @@ const DigitalTransformation = () => {
             buttonText: "See What We Do",
             bgColor: "#15042E",
             hoverTextColor: "white",
+            link: "/vebsigns", // 👈 add your route here
+
         },
         {
             id: 3,
@@ -28,6 +36,8 @@ const DigitalTransformation = () => {
             buttonText: "Industries We Serve",
             bgColor: "#15042E",
             hoverTextColor: "white",
+            link: "/vebsigns", // 👈 add your route here
+
         },
         {
             id: 4,
@@ -37,6 +47,8 @@ const DigitalTransformation = () => {
             buttonText: "Explore Cloud Services",
             bgColor: "#15042E",
             hoverTextColor: "white",
+            link: "/vebsigns", // 👈 add your route here
+
         },
     ];
     return (
@@ -59,7 +71,10 @@ const DigitalTransformation = () => {
                 {/* Cards */}
                 <div className="flex flex-wrap justify-center gap-6 lg:gap-12 w-full max-w-screen-xl mx-auto">
                     {cardData.map((card) => (
-                        <div key={card.id} className="relative w-full sm:w-1/2 md:w-1/3 lg:w-1/5 group mx-auto"
+                        <div
+                            key={card.id}
+                            className="relative w-full sm:w-1/2 md:w-1/3 lg:w-1/5 group mx-auto cursor-pointer"
+                            onClick={() => navigate(card.link || "#")}
                         >
                             {/* Main Card */}
                             <div
