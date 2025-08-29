@@ -82,7 +82,6 @@ const DigitalTransformation = () => {
     relative
     bg-white hover:bg-[#15042E] hover:text-white
     text-[#15042E]
-    font-[Nunito]
     text-[16px] leading-[25.6px]
     p-6 sm:p-8
     h-[370px]

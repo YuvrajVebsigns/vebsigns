@@ -19,6 +19,7 @@ import WhyChooseUs from './WhyChooseUs'
 import BeneficialResults from './BeneficialResults'
 import InsightsSection from './InsightsSection'
 import OurSoftware from './Solutions/OurSoftware'
+import UseCases from './UseCases'
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <DigitalTransformation />
       {/* <Accordion /> */}
       <OurSoftware />
+      <UseCases />
       <WorkingDiffIndustry />
       <SuccessStories />
       <Team/>

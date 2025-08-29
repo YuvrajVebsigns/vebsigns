@@ -67,7 +67,7 @@ export default function Header() {
 
                     {/* Headless UI Popover for Solutions */}
                     <Popover className="relative">
-                        {({ open, close }) => (
+                        {({ open }) => (
 
                             <div
                                 onMouseEnter={() => {
@@ -207,7 +207,7 @@ export default function Header() {
                         Use Cases
                     </Link>
                     <Popover className="relative">
-                        {({ open, close }) => (
+                        {({ open }) => (
                             <div
                                 onMouseEnter={() => {
                                     clearTimeout(closeTimeout);
