@@ -36,7 +36,7 @@ const Home = () => {
       <WorkingDiffIndustry />
       <SuccessStories />
       <Team />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
       <BeneficialResults />
       <Logos />
       <InsightsSection />
