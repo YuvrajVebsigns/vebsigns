@@ -20,6 +20,7 @@ import BeneficialResults from './BeneficialResults'
 import InsightsSection from './InsightsSection'
 import OurSoftware from './Solutions/OurSoftware'
 import UseCases from './UseCases'
+import DrivenByData from '../AboutPage/DrivenByData'
 
 const Home = () => {
   return (
@@ -31,13 +32,15 @@ const Home = () => {
       {/* <Accordion /> */}
       <OurSoftware />
       <UseCases />
+      <DrivenByData />
       <WorkingDiffIndustry />
       <SuccessStories />
-      <Team/>
+      <Team />
       <WhyChooseUs />
       <BeneficialResults />
-      <Logos/>
+      <Logos />
       <InsightsSection />
+
       {/* <BlogSection /> */}
 
       {/* <Testimonial/> */}
