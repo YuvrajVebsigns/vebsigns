@@ -9,6 +9,11 @@ const Blog = lazy(() => import("./Pages/Blog/Blog"));
 const BlogSingle = lazy(() => import("./Pages/Blog/BlogSingle"));
 const ContactSection = lazy(() => import("./Pages/ContactUs/ContactUs"));
 const AIMLHome = lazy(() => import("./Pages/Solutions/IT Services/AIML Strategy/AIMLHome"));
+const DSDAHome = lazy(() => import("./Pages/Solutions/IT Services/Data Science and Data Analytics/DSDAHome"));
+const GENAIHome = lazy(() => import("./Pages/Solutions/IT Services/Gen AI/GENAIHome"));
+const OPENAIHome = lazy(() => import("./Pages/Solutions/IT Services/OpenAI/OPENAIHome"));
+const SEOHome = lazy(() => import("./Pages/Solutions/IT Services/SEO/SEOHome"));
+const CAIHome = lazy(() => import("./Pages/Solutions/IT Services/Comprehensive AI/CAIHome"));
 
 const AppRoutes = () => (
   //   <Suspense fallback={<Loader />}>
@@ -20,6 +25,11 @@ const AppRoutes = () => (
       <Route path="/blog/:slug" element={<BlogSingle />} />
       <Route path="/contact" element={<ContactSection />} />
       <Route path="/ai-ml-strategy" element={<AIMLHome />} />
+      <Route path="/data-science" element={<DSDAHome />} />
+      <Route path="/gen-ai" element={<GENAIHome />} />
+      <Route path="/openai-consulting" element={<OPENAIHome />} />
+      <Route path="/seo-services" element={<SEOHome />} />
+      <Route path="/comprehensive-ai" element={<CAIHome />} />
       {/* Add more routes here */}
     </Routes>
   </Suspense>

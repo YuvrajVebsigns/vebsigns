@@ -60,8 +60,6 @@ const AIConsultingOverview = () => {
                         className="w-full max-w-lg object-contain scale-x-[-1]" // flips horizontally
                     />
                 </div>
-
-
             </div>
         </section>
 
