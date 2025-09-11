@@ -15,6 +15,7 @@ const OPENAIHome = lazy(() => import("./Pages/Solutions/IT Services/OpenAI/OPENA
 const SEOHome = lazy(() => import("./Pages/Solutions/IT Services/SEO/SEOHome"));
 const CAIHome = lazy(() => import("./Pages/Solutions/IT Services/Comprehensive AI/CAIHome"));
 const AIGHome = lazy(() => import("./Pages/Solutions/IoT Services/AI Gender/AIGHome"));
+const BMDMHome = lazy(() => import("./Pages/Solutions/IoT Services/Bulk Manufacturing/BMDMHome"));
 
 const AppRoutes = () => (
   //   <Suspense fallback={<Loader />}>
@@ -32,6 +33,7 @@ const AppRoutes = () => (
       <Route path="/seo-services" element={<SEOHome />} />
       <Route path="/comprehensive-ai" element={<CAIHome />} />
       <Route path="/iot-product-development" element={<AIGHome />} />
+      <Route path="/bulk-manufacturing" element={<BMDMHome />} />
       {/* Add more routes here */}
     </Routes>
   </Suspense>
