@@ -6,10 +6,10 @@ import UseCaseGrid from "./UseCaseGrid";
 
 export default function UseCase() {
   const images = [
-    "/assets/HomePage/a1.jpg",
-    "/assets/HomePage/a1.jpg",
-    "/assets/HomePage/a1.jpg",
-    "/assets/HomePage/a1.jpg",
+    "https://media.istockphoto.com/id/1412438498/vector/modern-square-tech-logo-design.jpg?s=612x612&w=0&k=20&c=ajxrQbCRK-HCeVE9kPMKqGCNnzoRS6UAJfstNKXWwTU=",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpdLIBjB-Wct_rNfeblvhbfsknbh75-hWoZg&s",
+    "https://img.freepik.com/free-vector/people-silhouette-logo_361591-2448.jpg?semt=ais_hybrid&w=740&q=80",
+    "https://img.freepik.com/free-vector/logo-tie-design-template_474888-1906.jpg?semt=ais_hybrid&w=740&q=80",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
