@@ -19,6 +19,8 @@ const BMDMHome = lazy(() => import("./Pages/Solutions/IoT Services/Bulk Manufact
 const ISIHome = lazy(() => import("./Pages/Solutions/IoT Services/Implementation System/ISIHome"));
 const SASHome = lazy(() => import("./Pages/Solutions/IoT Services/Strategic & Advisory Services/SASHome"));
 const PMAHome = lazy(() => import("./Pages/Solutions/IoT Services/Predictive Maintenance & Analytics/PMAHome"));
+const UseCase = lazy(() => import("./Pages/Use Cases/UseCase"));
+const UseCaseSingle = lazy(() => import("./Pages/Use Cases/UseCaseSingle"));
 
 const AppRoutes = () => (
   //   <Suspense fallback={<Loader />}>
@@ -40,6 +42,9 @@ const AppRoutes = () => (
       <Route path="/implementation-system-integration" element={<ISIHome />} />
       <Route path="/strategic-advisory-services" element={<SASHome />} />
       <Route path="/predictive-maintenance" element={<PMAHome />} />
+      <Route path="/use-cases" element={<UseCase />} />
+      <Route path="/use-cases/:slug" element={<UseCaseSingle />} />
+
       {/* Add more routes here */}
     </Routes>
   </Suspense>

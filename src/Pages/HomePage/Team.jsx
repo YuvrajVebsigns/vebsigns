@@ -36,7 +36,7 @@ const Team = () => {
                         </div>
 
                         <div>
-                            <img className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 " src="" alt="" />
+                            <img className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 " src="/assets/HomePage/Pooja.jpg" alt="" />
                             <p className="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">⁠Pooja Karkhile</p>
                             <p className="mt-2 text-base font-normal text-gray-600 font-pj">Senior Manager</p>
                         </div>
@@ -46,7 +46,7 @@ const Team = () => {
                             <p className="mt-2 text-base font-normal text-gray-600 font-pj">Business Analyst</p>
                         </div>
                         <div>
-                            <img className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 " src="" alt="" />
+                            <img className="object-cover w-32 h-32 mx-auto rounded-full lg:w-44 lg:h-44 " src="/assets/HomePage/Roshan.jpg" alt="" />
                             <p className="mt-5 text-lg font-bold text-gray-900 sm:text-xl sm:mt-8 font-pj">⁠Roshan Gupta</p>
                             <p className="mt-2 text-base font-normal text-gray-600 font-pj">Mobile App Lead</p>
                         </div>
