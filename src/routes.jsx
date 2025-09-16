@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+import HireDev from "./Pages/Hire Developers/HireDevelopers";
 // import Loader from "./Components/Loader";
 
 // Lazy load pages
@@ -44,6 +45,7 @@ const AppRoutes = () => (
       <Route path="/predictive-maintenance" element={<PMAHome />} />
       <Route path="/use-cases" element={<UseCase />} />
       <Route path="/use-cases/:slug" element={<UseCaseSingle />} />
+      <Route path="/hire-developers" element={<HireDev />} />
 
       {/* Add more routes here */}
     </Routes>

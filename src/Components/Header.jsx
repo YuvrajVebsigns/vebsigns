@@ -91,15 +91,15 @@ export default function Header() {
                                 </PopoverButton>
 
                                 {/* Dropdown Panel */}
-                                <PopoverPanel className="absolute z-50 mt-2 w-48 rounded-lg bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                <PopoverPanel className="absolute z-50 mt-2 w-56 rounded-lg bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                     <div className="p-3 divide-y divide-gray-200">
                                         <Link to="/about" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
                                             <Info className="w-4 h-4" />
                                             About Us
                                         </Link>
-                                        <Link to="/our-team" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
+                                        <Link to="/hire-developers" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
                                             <FileText className="w-4 h-4" />
-                                            Our Team
+                                            Hire Deveopers
                                         </Link>
                                         <Link to="/blog" className="flex items-center gap-2 px-3 py-2 rounded hover:bg-gray-100">
                                             <DollarSign className="w-4 h-4" />
@@ -315,8 +315,8 @@ export default function Header() {
                                         <Link to="/about" className="block hover:text-blue-600" onClick={toggleDrawer}>
                                             About Us
                                         </Link>
-                                        <Link to="/our-team" className="block hover:text-blue-600" onClick={toggleDrawer}>
-                                            Our Team
+                                        <Link to="/hire-developers" className="block hover:text-blue-600" onClick={toggleDrawer}>
+                                            Hire Developers
                                         </Link>
                                         <Link to="/blog" className="block hover:text-blue-600" onClick={toggleDrawer}>
                                             Blogs
