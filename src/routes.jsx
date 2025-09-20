@@ -20,6 +20,9 @@ const BMDMHome = lazy(() => import("./Pages/Solutions/IoT Services/Bulk Manufact
 const ISIHome = lazy(() => import("./Pages/Solutions/IoT Services/Implementation System/ISIHome"));
 const SASHome = lazy(() => import("./Pages/Solutions/IoT Services/Strategic & Advisory Services/SASHome"));
 const PMAHome = lazy(() => import("./Pages/Solutions/IoT Services/Predictive Maintenance & Analytics/PMAHome"));
+const WDADHome = lazy(() => import("./Pages/Solutions/IT Services/Website Design & Development/WDADHome"));
+const ADADHome = lazy(() => import("./Pages/Solutions/IT Services/App Design & Development/ADADHome"));
+const UIUXHome = lazy(() => import("./Pages/Solutions/IT Services/UIUX/UIUXHome"));
 const UseCase = lazy(() => import("./Pages/Use Cases/UseCase"));
 const UseCaseSingle = lazy(() => import("./Pages/Use Cases/UseCaseSingle"));
 
@@ -43,6 +46,9 @@ const AppRoutes = () => (
       <Route path="/implementation-system-integration" element={<ISIHome />} />
       <Route path="/strategic-advisory-services" element={<SASHome />} />
       <Route path="/predictive-maintenance" element={<PMAHome />} />
+      <Route path="/website-design" element={<WDADHome />} />
+      <Route path="/app-design" element={<ADADHome />} />
+      <Route path="/uiux" element={<UIUXHome />} />
       <Route path="/use-cases" element={<UseCase />} />
       <Route path="/use-cases/:slug" element={<UseCaseSingle />} />
       <Route path="/hire-developers" element={<HireDev />} />

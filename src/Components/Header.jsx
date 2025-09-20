@@ -158,7 +158,7 @@ export default function Header() {
                                         {/* IT Services Section */}
                                         <div className="flex-1">
                                             <div className="font-semibold mb-3">IT Services</div>
-                                            <div className="space-y-3">
+                                            <div className="space-y-3 text-base">
                                                 <Link
                                                     to="/ai-ml-strategy"
                                                     className="flex items-center gap-2 hover:bg-blue-50 rounded px-2 py-1"
@@ -215,13 +215,20 @@ export default function Header() {
                                                     <Layers size={24} />
                                                     <span>App Design & Development</span>
                                                 </Link>
+                                                <Link
+                                                    to="/uiux"
+                                                    className="flex items-center gap-2 hover:bg-blue-50 rounded px-2 py-1"
+                                                >
+                                                    <Layers size={24} />
+                                                    <span>UI/UX</span>
+                                                </Link>
                                             </div>
                                         </div>
 
                                         {/* IoT Services Section */}
                                         <div className="flex-1">
                                             <div className="font-semibold mb-3">IoT Services</div>
-                                            <div className="space-y-3">
+                                            <div className="space-y-3 text-base">
                                                 <Link
                                                     to="/iot-product-development"
                                                     className="flex items-center gap-2 hover:bg-blue-50 rounded px-2 py-1"
@@ -389,6 +396,9 @@ export default function Header() {
                                                 </Link>
                                                 <Link to="/app-design" className="block hover:text-blue-600" onClick={toggleDrawer}>
                                                     App Design & Development
+                                                </Link>
+                                                <Link to="/uiux" className="block hover:text-blue-600" onClick={toggleDrawer}>
+                                                    UI/UX
                                                 </Link>
                                             </div>
                                         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import BlogGrid from "../Blog/BlogGrid";
 
 const blogPosts = [
     {
@@ -68,8 +69,8 @@ const InsightsSection = () => {
                 </div>
 
                 {/* Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    {/* Featured Post */}
+                <BlogGrid/>
+                {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     <div className="lg:row-span-2">
                         {blogPosts
                             .filter((post) => post.featured)
@@ -93,7 +94,6 @@ const InsightsSection = () => {
                             ))}
                     </div>
 
-                    {/* Other Posts */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:col-span-2">
                         {blogPosts
                             .filter((post) => !post.featured)
@@ -114,7 +114,7 @@ const InsightsSection = () => {
                                 </div>
                             ))}
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );
