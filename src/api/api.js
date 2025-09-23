@@ -1,8 +1,8 @@
 // src/api/index.js
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/api/v1";
-// const BASE_URL = "https://domain.com/api/v1";
+// const BASE_URL = "http://localhost:28080/api/v1";
+const BASE_URL = "https://vebsigns-api.actors.vebsigns.com/api/v1";
 
 const api = axios.create({
   baseURL: BASE_URL,
