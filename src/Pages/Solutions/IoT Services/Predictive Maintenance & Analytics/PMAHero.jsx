@@ -45,9 +45,9 @@ const PMAHero = () => {
                             Predictive Maintenance & Analytics
                         </h1>
                         <p className="mt-6 text-gray-300 text-base sm:text-lg">
-                            From concept to compliant hardware & firmware
-                            development, we deliver end-to-end IoT solutions
-                            tailored to your business needs.
+                            Leverage data-driven insights and AI-powered analytics to predict failures,
+                            reduce downtime, and extend the lifecycle of critical assets.
+
                         </p>
                         <button
                             className="mt-8 inline-flex items-center justify-center text-[16px] font-semibold leading-[25px] 

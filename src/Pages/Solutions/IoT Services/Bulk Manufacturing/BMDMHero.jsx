@@ -45,9 +45,8 @@ const BMDMHero = () => {
                             Bulk Manufacturing & Device Management
                         </h1>
                         <p className="mt-6 text-gray-300 text-base sm:text-lg">
-                            From concept to compliant hardware & firmware
-                            development, we deliver end-to-end IoT solutions
-                            tailored to your business needs.
+                            Streamline large-scale production and efficiently manage connected devices
+                            with secure, scalable, and compliant IoT manufacturing solutions.
                         </p>
                         <button
                             className="mt-8 inline-flex items-center justify-center text-[16px] font-semibold leading-[25px] 
