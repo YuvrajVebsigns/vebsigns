@@ -12,11 +12,7 @@ const api = axios.create({
 });
 
 // ✅ API endpoints
-
-
-
-// Blogs API-----------------------------------------------------------------------
-// api/blogs.js or wherever you're binding APIs
+// api.js
 
 export const getBlogById = (id) => api.get(`/blogs/get-blog/${id}`);
 export const getBlogBySlug = (slug) => api.get(`/blogs/get-blog-by-slug/${slug}`);

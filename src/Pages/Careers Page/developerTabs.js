@@ -110,691 +110,601 @@ export const developerTabs = [
   },
   {
     name: "iOS Developer",
-    title: "Hire Dedicated iOS App Developers",
+    title: "Join Our Team as an iOS Developer",
     description:
-      "Our dedicated team of iOS app developers is here to collaborate with you and bring your vision to life on the Apple App Store.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for skilled iOS developers passionate about creating high-quality apps that deliver outstanding user experiences and make an impact on the Apple App Store.",
+    image: "/assets/Careers/ios-dev.png",
     features: [
       {
-        title: "API Integration",
+        title: "Challenging Projects",
         description:
-          "Expertise in integrating third-party APIs and services, such as social media APIs, payment gateways, and location-based services, to enhance the functionality and connectivity of iOS applications.",
-        image: "/assets/HomePage/image 5.png",
+          "Work on innovative iOS applications across diverse industries and domains.",
+        image: "/assets/Careers/projects.png",
       },
       {
-        title: "Testing and Debugging",
+        title: "Latest Tech Stack",
         description:
-          "Strong skills in unit testing, UI testing, and debugging techniques, ensuring the reliability, performance, and stability of iOS applications across different devices and OS versions.",
-        image: "/assets/HomePage/image 6.png",
+          "Leverage Swift, Objective-C, SwiftUI, and the newest iOS frameworks to build next-gen mobile apps.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "iOS Development",
+        title: "Collaborative Culture",
         description:
-          "Proficiency in Swift and Objective-C languages, along with a deep understanding of iOS frameworks and SDKs, ensuring the development of robust and feature-rich iOS applications.",
-        image: "/assets/HomePage/image 7.png",
+          "Join a supportive team that values collaboration, creativity, and continuous learning.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Custom Solutions",
+        title: "Career Growth",
         description:
-          "They have a knack for crafting custom solutions tailored to meet your specific business requirements and goals, ensuring that your app stands out in the crowded marketplace.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "UI/UX Design Expertise",
-        description:
-          "Ability to create intuitive and visually appealing user interfaces that enhance user experience and drive engagement, utilizing tools like Interface Builder, Auto Layout, and SwiftUI.",
-        image: "/assets/HomePage/image 7.png",
+          "Advance your career with mentorship, training, and real-world exposure to complex iOS projects.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in iOS Development",
+        title: "Flexible Work Environment",
         description:
-          "Our developers have extensive experience in IOS app development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          "We value your expertise and offer a salary package that matches your skills.",
       },
       {
-        title: "Transparent Communication",
+        title: "Learning & Upskilling",
         description:
-          "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          "Access iOS-specific workshops, certifications, and continuous learning programs.",
       },
       {
-        title: "Intuitive and Flexible UI",
+        title: "Employee Wellbeing",
         description:
-          "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          "Benefit from health programs, team-building activities, and wellness initiatives.",
       },
       {
-        title: "Support and Maintenance",
+        title: "Post-Launch Experience",
         description:
-          "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          "Get hands-on exposure to the complete iOS app lifecycle, including deployment, support, and optimization.",
       },
     ],
   },
   {
     name: "PHP Developer",
-    title: "Hire Expert PHP Developers",
+    title: "Join Our Team as a PHP Developer",
     description:
-      "We provide skilled PHP developers on monthly, part-time, or hourly terms to meet your specific project requirements, from simple applications to complex portals.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for passionate PHP developers who love crafting scalable, secure, and innovative web applications. If you enjoy working with modern frameworks and solving real-world challenges, this role is for you.",
+    image: "/assets/Careers/php-dev.png",
     features: [
       {
-        title: "Advanced PHP Frameworks",
+        title: "Challenging Projects",
         description:
-          "Our developers are proficient in utilizing popular PHP frameworks such as Laravel, Symfony, CodeIgniter, Yii, and Zend Framework. They leverage the features and functionalities offered by these frameworks to streamline the development process and ensure the scalability, security, and maintainability of web applications.",
-        image: "/assets/HomePage/image 5.png",
+          "Work on diverse and complex projects including CMS, e-commerce, and enterprise-level applications.",
+        image: "/assets/Careers/projects.png",
       },
       {
-        title: "Frontend Technologies",
+        title: "Modern Frameworks",
         description:
-          "While primarily focused on backend development, our PHP developers also have a good understanding of frontend technologies such as HTML, CSS, JavaScript, and JavaScript frameworks like React.js and Vue.js. This enables them to collaborate effectively with frontend developers and create seamless user experiences in web applications.",
-        image: "/assets/HomePage/image 6.png",
+          "Gain hands-on experience with frameworks like Laravel, Symfony, CodeIgniter, and Yii.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "Customized Solutions",
+        title: "Collaborative Culture",
         description:
-          "Our PHP developers have experience developing custom solutions tailored to meet the specific requirements and objectives of each project. Whether it’s building a content management system (CMS), an e-commerce platform, a customer relationship management (CRM) system, or any other web application, our developers have the skills and expertise to deliver bespoke solutions that address your unique needs.  ",
-        image: "/assets/HomePage/image 7.png",
+          "Join a supportive team that values teamwork, knowledge-sharing, and continuous learning.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Database Management",
+        title: "Career Growth",
         description:
-          "Our developers are proficient in database management systems such as MySQL, PostgreSQL, MongoDB, and SQLite. They have experience in designing and optimizing databases, implementing complex queries, and ensuring data integrity and security within web applications.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "API Development and Integration",
-        description:
-          "Our PHP developers have experience in developing and integrating APIs (Application Programming Interfaces) to facilitate communication between different systems and services. Whether it’s integrating third-party APIs for payment gateways, social media platforms, or other services, or developing custom APIs to expose functionality within your web application, our developers can handle it effectively.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Scalable and Secure Solutions",
-        description:
-          "Our PHP developers prioritize scalability and security in their development approach. They follow best practices for coding, implement secure authentication and authorization mechanisms, and employ encryption techniques to safeguard sensitive data. Additionally, they design web applications with scalability in mind, ensuring that they can handle increased traffic and user loads as your business grows.",
-        image: "/assets/HomePage/image 7.png",
+          "Enhance your career with mentorship, training, and exposure to scalable backend architectures.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in PHP Development",
+        title: "Flexible Work Environment",
         description:
-          "Our developers have extensive experience in Php Web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          "We value your expertise and provide salary packages that match your skills.",
       },
       {
-        title: "Transparent Communication",
+        title: "Learning & Upskilling",
         description:
-          "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          "Access workshops, certifications, and training programs to stay ahead in PHP and web technologies.",
       },
       {
-        title: "Intuitive and Flexible UI",
+        title: "Employee Wellbeing",
         description:
-          "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          "Benefit from health programs, team-building activities, and wellness initiatives.",
       },
       {
-        title: "Support and Maintenance",
+        title: "Full Lifecycle Exposure",
         description:
-          "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          "Gain end-to-end experience from development to deployment, support, and scaling of applications.",
       },
     ],
   },
   {
     name: "Java Developer",
-    title: "Hire Expert Java Developers",
+    title: "Join Our Team as a Java Developer",
     description:
-      "At Vebsigns, Java development is our forte. Our team specializes in crafting robust and efficient applications using Java technologies. Whether you need backend services, enterprise solutions, or scalable web applications, our expert Java developers are ready to exceed your expectations.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for skilled Java developers who are passionate about building scalable, secure, and high-performance applications. If you love solving backend challenges and working with modern Java frameworks, this role is for you.",
+    image: "/assets/Careers/java-dev.png",
     features: [
       {
-        title: "Advanced JAVA Frameworks",
+        title: "Challenging Projects",
         description:
-          "Our developers are proficient in utilizing popular Java frameworks such as Spring Boot, Spring Cloud, and Spring Security. They leverage the features and functionalities offered by these frameworks to streamline the development process and ensure the scalability, security, and maintainability of web applications.",
-        image: "/assets/HomePage/image 5.png",
+          "Work on enterprise-level systems, microservices, and scalable web applications that push your skills to the next level.",
+        image: "/assets/Careers/projects.png",
       },
       {
-        title: "Frontend Technologies",
+        title: "Advanced Java Frameworks",
         description:
-          "While primarily focused on backend development, our PHP developers also have a good understanding of frontend technologies such as HTML, CSS, JavaScript, and JavaScript frameworks like React.js and Vue.js. This enables them to collaborate effectively with frontend developers and create seamless user experiences in web applications.",
-        image: "/assets/HomePage/image 6.png",
+          "Gain hands-on experience with Spring Boot, Spring Cloud, Spring Security, and other modern Java frameworks.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "Customized Solutions",
+        title: "Collaborative Culture",
         description:
-          "Our Java developers have experience developing custom solutions tailored to meet the specific requirements and objectives of each project. Whether it’s building a content management system (CMS), an e-commerce platform, a customer relationship management (CRM) system, or any other web application, our developers have the skills and expertise to deliver bespoke solutions that address your unique needs.",
-        image: "/assets/HomePage/image 7.png",
+          "Join a supportive team that values knowledge sharing, teamwork, and continuous improvement.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Database Management",
+        title: "Career Growth",
         description:
-          "Our developers are proficient in database management systems such as MySQL, PostgreSQL, MongoDB, and SQLite. They have experience in designing and optimizing databases, implementing complex queries, and ensuring data integrity and security within web applications.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "API Development and Integration",
-        description:
-          "Our Java developers have experience in developing and integrating APIs (Application Programming Interfaces) to facilitate communication between different systems and services. Whether it’s integrating third-party APIs for payment gateways, social media platforms, or other services, or developing custom APIs to expose functionality within your web application, our developers can handle it effectively.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Scalable and Secure Solutions",
-        description:
-          "Our Java developers prioritize scalability and security in their development approach. They follow best practices for coding, implement secure authentication and authorization mechanisms, and employ encryption techniques to safeguard sensitive data. Additionally, they design web applications with scalability in mind, ensuring that they can handle increased traffic and user loads as your business grows.",
-        image: "/assets/HomePage/image 7.png",
+          "Grow your expertise with mentorship, certifications, and exposure to enterprise-grade solutions.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in Java Development",
+        title: "Flexible Work Environment",
         description:
-          "Our developers have extensive experience in Java Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          "We offer salary packages that reflect your expertise and experience.",
       },
       {
-        title: "Transparent Communication",
+        title: "Learning & Upskilling",
         description:
-          "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          "Access advanced Java workshops, certifications, and continuous learning opportunities.",
       },
       {
-        title: "Intuitive and Flexible UI",
+        title: "Employee Wellbeing",
         description:
-          "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          "Benefit from wellness programs, team-building activities, and a supportive work culture.",
       },
       {
-        title: "Support and Maintenance",
+        title: "Full Lifecycle Exposure",
         description:
-          "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          "Get hands-on experience with the complete software development lifecycle, from design to deployment and maintenance.",
       },
     ],
   },
   {
     name: "Python Developer",
-    title: "Hire Expert Python Developers",
+    title: "Join Our Team as a Python Developer",
     description:
-      "At Vebsigns Technologies, Python development is our specialty. Our team excels in creating scalable and robust applications using Python frameworks. Whether you require AI-powered solutions, data analytics tools, or backend services, our expert Python developers are equipped to deliver high-quality results.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for talented Python developers who are passionate about building scalable, secure, and innovative applications. If you enjoy working with modern frameworks and solving real-world challenges, this role is for you.",
+    image: "/assets/Careers/python-dev.png",
     features: [
+      {
+        title: "Challenging Projects",
+        description:
+          "Work on AI-driven platforms, data analytics tools, and enterprise-level backend systems.",
+        image: "/assets/Careers/projects.png",
+      },
       {
         title: "Advanced Python Frameworks",
         description:
-          "Our developers are proficient in utilizing popular Paython frameworks such as Django, Flask, FastAPI, Pyramid and CherryPy. They leverage the features and functionalities offered by these frameworks to streamline the development process and ensure the scalability, security, and maintainability of web applications.",
-        image: "/assets/HomePage/image 5.png",
+          "Gain hands-on experience with frameworks like Django, Flask, FastAPI, and Pyramid.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "Frontend Technologies",
+        title: "Collaborative Culture",
         description:
-          "While primarily focused on backend development, our PHP developers also have a good understanding of frontend technologies such as HTML, CSS, JavaScript, and JavaScript frameworks like React.js and Vue.js. This enables them to collaborate effectively with frontend developers and create seamless user experiences in web applications.",
-        image: "/assets/HomePage/image 6.png",
+          "Join a team that values problem-solving, knowledge sharing, and continuous learning.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Customized Solutions",
+        title: "Career Growth",
         description:
-          "Our Python developers have experience developing custom solutions tailored to meet the specific requirements and objectives of each project. Whether it’s building a content management system (CMS), an e-commerce platform, a customer relationship management (CRM) system, or any other web application, our developers have the skills and expertise to deliver bespoke solutions that address your unique needs.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Database Management",
-        description:
-          "Our developers are proficient in database management systems such as MySQL, PostgreSQL, MongoDB, and SQLite. They have experience in designing and optimizing databases, implementing complex queries, and ensuring data integrity and security within web applications.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "API Development and Integration",
-        description:
-          "Our Python developers have experience in developing and integrating APIs (Application Programming Interfaces) to facilitate communication between different systems and services. Whether it’s integrating third-party APIs for payment gateways, social media platforms, or other services, or developing custom APIs to expose functionality within your web application, our developers can handle it effectively.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Scalable and Secure Solutions",
-        description:
-          "Our Python developers prioritize scalability and security in their development approach. They follow best practices for coding, implement secure authentication and authorization mechanisms, and employ encryption techniques to safeguard sensitive data. Additionally, they design web applications with scalability in mind, ensuring that they can handle increased traffic and user loads as your business grows.",
-        image: "/assets/HomePage/image 7.png",
+          "Enhance your career with mentorship, training, and exposure to large-scale projects.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in Python Development",
+        title: "Flexible Work Environment",
         description:
-          "Our developers have extensive experience in Python Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          "We value your expertise and provide salary packages that match your skills.",
       },
       {
-        title: "Transparent Communication",
+        title: "Learning & Upskilling",
         description:
-          "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          "Access Python-focused workshops, certifications, and continuous learning programs.",
       },
       {
-        title: "Intuitive and Flexible UI",
+        title: "Employee Wellbeing",
         description:
-          "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          "Benefit from wellness programs, team-building activities, and a supportive work culture.",
       },
       {
-        title: "Support and Maintenance",
+        title: "Full Lifecycle Exposure",
         description:
-          "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          "Gain experience across the entire app lifecycle — from development to deployment and scaling.",
       },
     ],
   },
   {
     name: "ReactJS Developer",
-    title: "Hire Expert ReactJS Developers",
+    title: "Join Our Team as a ReactJS Developer",
     description:
-      "At Vebsigns Technologies, we specialize in crafting innovative and user-friendly mobile and web solutions using cutting-edge technologies like Android and React.js. Whether you need a sleek Android app or a robust web application powered by React.js, our developers are equipped to deliver excellence.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for talented ReactJS developers who are passionate about building interactive, scalable, and user-friendly web applications. At Vebsigns Technologies, you’ll work on innovative projects, collaborate with a skilled team, and contribute to delivering top-notch solutions that make an impact.",
+    image: "/assets/Careers/reactjs-dev.png",
     features: [
       {
-        title: "Frontend Technologies",
+        title: "Challenging Projects",
         description:
-          "While primarily focused on backend development, our PHP developers also have a good understanding of frontend technologies such as HTML, CSS, JavaScript, and JavaScript frameworks like React.js and Vue.js. This enables them to collaborate effectively with frontend developers and create seamless user experiences in web applications.",
-        image: "/assets/HomePage/image 6.png",
+          "Work on diverse and innovative web applications across industries using ReactJS and modern frontend technologies.",
+        image: "/assets/Careers/projects.png",
       },
       {
-        title: "Customized Solutions",
+        title: "Latest Tech Stack",
         description:
-          "Our ReactJS developers have experience developing custom solutions tailored to meet the specific requirements and objectives of each project. Whether it’s building a content management system (CMS), an e-commerce platform, a customer relationship management (CRM) system, or any other web application, our developers have the skills and expertise to deliver bespoke solutions that address your unique needs.",
-        image: "/assets/HomePage/image 7.png",
+          "Leverage the power of ReactJS, modern JavaScript (ES6+), Redux, Next.js, and other cutting-edge tools to create high-performance applications.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "Database Management",
+        title: "Collaborative Culture",
         description:
-          "Our developers are proficient in database management systems such as MySQL, PostgreSQL, MongoDB, and SQLite. They have experience in designing and optimizing databases, implementing complex queries, and ensuring data integrity and security within web applications.",
-        image: "/assets/HomePage/image 7.png",
+          "Be part of a team that values creativity, collaboration, and knowledge-sharing to grow together.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Scalable and Secure Solutions",
+        title: "Career Growth",
         description:
-          "Our Python developers prioritize scalability and security in their development approach. They follow best practices for coding, implement secure authentication and authorization mechanisms, and employ encryption techniques to safeguard sensitive data. Additionally, they design web applications with scalability in mind, ensuring that they can handle increased traffic and user loads as your business grows.",
-        image: "/assets/HomePage/image 7.png",
+          "Gain real-world exposure, mentorship, and opportunities to expand your skills and advance your career in frontend development.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in ReactJS Development",
+        title: "Flexible Work Environment",
         description:
-          "Our developers have extensive experience in React Js web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          "Enjoy a healthy work-life balance with flexible work arrangements including hybrid/remote options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          "We value your skills and offer a salary package that reflects your expertise and contributions.",
       },
       {
-        title: "Transparent Communication",
+        title: "Continuous Learning",
         description:
-          "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          "Access training programs, workshops, and certifications to keep your skills sharp and updated.",
       },
       {
-        title: "Intuitive and Flexible UI",
+        title: "Employee Wellbeing",
         description:
-          "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          "Take part in wellness initiatives, team-building activities, and programs designed to support your overall growth.",
       },
       {
-        title: "Support and Maintenance",
+        title: "Post-Launch Exposure",
         description:
-          "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          "Get hands-on experience in app lifecycle management, from development to deployment and optimization.",
       },
     ],
   },
   {
     name: "NodeJS Developer",
-    title: "Hire Expert NodeJS Developers",
+    title: "Join Our Team as a NodeJS Developer",
     description:
-      "At Vebsigns Technologies, we specialize in crafting innovative solutions using cutting-edge technologies like Node.js and React. Whether you require a powerful backend system or a real-time application, our Node.js developers have the expertise to deliver high-quality results.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for skilled NodeJS developers who are passionate about building high-performance, scalable, and secure backend systems. At Vebsigns Technologies, you’ll work on innovative projects, collaborate with a talented team, and help deliver robust solutions for web and real-time applications.",
+    image: "/assets/Careers/nodejs-dev.png",
     features: [
+      {
+        title: "Challenging Projects",
+        description:
+          "Work on complex backend systems, APIs, and real-time applications that push your skills to the next level.",
+        image: "/assets/Careers/projects.png",
+      },
       {
         title: "Advanced Node.js Frameworks",
         description:
-          "Our developers are proficient in utilizing popular Node.js frameworks such as Express.js, Koa.js, NestJS, and Meteor.js. They leverage the features and functionalities offered by these frameworks to streamline the development process and ensure the scalability, security, and maintainability of web applications.",
-        image: "/assets/HomePage/image 6.png",
+          "Gain hands-on experience with Express.js, Koa.js, NestJS, Meteor.js, and other modern Node.js frameworks.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "Frontend Technologies",
+        title: "Collaborative Culture",
         description:
-          "While primarily focused on backend development, our Node Js developers also have a good understanding of frontend technologies such as HTML, CSS, JavaScript, and JavaScript frameworks like React.js and Vue.js. This enables them to collaborate effectively with frontend developers and create seamless user experiences in web applications.",
-        image: "/assets/HomePage/image 7.png",
+          "Join a supportive team that values problem-solving, knowledge-sharing, and continuous learning.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Database Management",
+        title: "Career Growth",
         description:
-          "Our developers are proficient in database management systems such as MySQL, PostgreSQL, MongoDB, and SQLite. They have experience in designing and optimizing databases, implementing complex queries, and ensuring data integrity and security within web applications.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Customized Solutions",
-        description:
-          "Our Node Js developers have experience developing custom solutions tailored to meet the specific requirements and objectives of each project. Whether it’s building a content management system (CMS), an e-commerce platform, a customer relationship management (CRM) system, or any other web application, our developers have the skills and expertise to deliver bespoke solutions that address your unique needs.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "API Development and Integration",
-        description:
-          "Our Node Js developers have experience in developing and integrating APIs (Application Programming Interfaces) to facilitate communication between different systems and services. Whether it’s integrating third-party APIs for payment gateways, social media platforms, or other services, or developing custom APIs to expose functionality within your web application, our developers can handle it effectively.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Scalable and Secure Solutions",
-        description:
-          "Our Python developers prioritize scalability and security in their development approach. They follow best practices for coding, implement secure authentication and authorization mechanisms, and employ encryption techniques to safeguard sensitive data. Additionally, they design web applications with scalability in mind, ensuring that they can handle increased traffic and user loads as your business grows.",
-        image: "/assets/HomePage/image 7.png",
+          "Enhance your expertise with mentorship, training, and exposure to large-scale backend architectures.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in NodeJS Development",
+        title: "Flexible Work Environment",
         description:
-          "Our developers have extensive experience in Node JS Web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          "We value your skills and offer a salary package that reflects your expertise and contributions.",
       },
       {
-        title: "Transparent Communication",
+        title: "Learning & Upskilling",
         description:
-          "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          "Access workshops, certifications, and training programs to stay ahead in NodeJS and backend technologies.",
       },
       {
-        title: "Intuitive and Flexible UI",
+        title: "Employee Wellbeing",
         description:
-          "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          "Benefit from wellness programs, team-building activities, and a supportive work culture.",
       },
       {
-        title: "Support and Maintenance",
+        title: "Full Lifecycle Exposure",
         description:
-          "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          "Gain experience across the full development lifecycle, from backend development to deployment and scaling.",
       },
     ],
   },
   {
     name: "NextJS Developer",
-    title: "Hire Expert NextJS Developers",
+    title: "Join Our Team as a NextJS Developer",
     description:
-      "At Vebsigns Technologies, we specialize in crafting innovative and user-friendly mobile and web solutions using cutting-edge technologies like Android and Next.js. Whether you need a sleek Android app or a robust web application powered by Next.js, our developers are equipped to deliver excellence.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for talented NextJS developers passionate about building fast, scalable, and user-friendly web applications. At Vebsigns Technologies, you’ll collaborate with a skilled team on innovative projects and gain hands-on experience with cutting-edge frontend technologies.",
+    image: "/assets/Careers/nextjs-dev.png",
     features: [
       {
-        title: "Frontend Technologies",
+        title: "Challenging Projects",
         description:
-          "While primarily focused on backend development, our NextJS developers also have a good understanding of frontend technologies such as HTML, CSS, JavaScript, and JavaScript frameworks like React.js and Vue.js. This enables them to collaborate effectively with frontend developers and create seamless user experiences in web applications.",
-        image: "/assets/HomePage/image 6.png",
+          "Work on complex web applications, e-commerce platforms, and enterprise solutions using NextJS and modern frontend technologies.",
+        image: "/assets/Careers/projects.png",
       },
       {
-        title: "Customized Solutions",
+        title: "Latest Tech Stack",
         description:
-          "Our NextJS developers have experience developing custom solutions tailored to meet the specific requirements and objectives of each project. Whether it’s building a content management system (CMS), an e-commerce platform, a customer relationship management (CRM) system, or any other web application, our developers have the skills and expertise to deliver bespoke solutions that address your unique needs.",
-        image: "/assets/HomePage/image 7.png",
+          "Gain experience with NextJS, React.js, JavaScript (ES6+), Tailwind CSS, and other modern frontend tools.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "Database Management",
+        title: "Collaborative Culture",
         description:
-          "Our developers are proficient in database management systems such as MySQL, PostgreSQL, MongoDB, and SQLite. They have experience in designing and optimizing databases, implementing complex queries, and ensuring data integrity and security within web applications.",
-        image: "/assets/HomePage/image 7.png",
+          "Be part of a team that values creativity, collaboration, and continuous learning.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Scalable and Secure Solutions",
+        title: "Career Growth",
         description:
-          "Our NextJS developers prioritize scalability and security in their development approach. They follow best practices for coding, implement secure authentication and authorization mechanisms, and employ encryption techniques to safeguard sensitive data. Additionally, they design web applications with scalability in mind, ensuring that they can handle increased traffic and user loads as your business grows.",
-        image: "/assets/HomePage/image 7.png",
+          "Advance your career with mentorship, training, and exposure to large-scale web applications.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in NodeJS Development",
+        title: "Flexible Work Environment",
         description:
-          "Our developers have extensive experience in Node JS Web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          "We offer salary packages that reflect your expertise and contributions.",
       },
       {
-        title: "Transparent Communication",
+        title: "Continuous Learning",
         description:
-          "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          "Access workshops, certifications, and training programs to stay ahead in NextJS and frontend development.",
       },
       {
-        title: "Intuitive and Flexible UI",
+        title: "Employee Wellbeing",
         description:
-          "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          "Participate in wellness programs, team-building activities, and a supportive work culture.",
       },
       {
-        title: "Support and Maintenance",
+        title: "Full Lifecycle Exposure",
         description:
-          "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          "Gain experience across the complete development lifecycle, from design to deployment and scaling.",
       },
     ],
   },
   {
     name: "AngularJS Developer",
-    title: "Hire Expert AngularJS Developers",
+    title: "Join Our Team as an AngularJS Developer",
     description:
-      "At Vebsigns Technologies, we specialize in crafting innovative and user-friendly mobile and web solutions using cutting-edge technologies like Android and Angular.js. Whether you need a sleek Android app or a robust web application powered by Angular.js, our developers are equipped to deliver excellence.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for skilled AngularJS developers passionate about building dynamic, scalable, and user-friendly web applications. At Vebsigns Technologies, you’ll collaborate with a talented team on innovative projects and gain hands-on experience with modern frontend technologies.",
+    image: "/assets/Careers/angularjs-dev.png",
     features: [
       {
-        title: "Proficiency in Angular Framework",
+        title: "Challenging Projects",
         description:
-          "Our AngularJS developers are skilled in building dynamic, scalable, and high-performance single-page applications using AngularJS. They leverage the framework’s powerful features like two-way data binding, directives, and dependency injection to deliver seamless web applications.",
-        image: "/assets/HomePage/image 6.png",
+          "Work on dynamic single-page applications, enterprise-grade solutions, and innovative web projects using AngularJS.",
+        image: "/assets/Careers/projects.png",
       },
       {
-        title: "Custom Application Development",
+        title: "Latest Tech Stack",
         description:
-          "We specialize in developing custom AngularJS applications tailored to your specific business needs. From enterprise-grade solutions to lightweight apps, our developers ensure that your application is both robust and user-friendly.",
-        image: "/assets/HomePage/image 7.png",
+          "Gain experience with AngularJS, HTML, CSS, JavaScript, and RESTful APIs to build high-performance applications.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "API Integration & RESTful Services",
+        title: "Collaborative Culture",
         description:
-          "Our developers have extensive experience integrating RESTful APIs and third-party services into AngularJS applications, enabling smooth data flow and enhancing functionality across platforms.",
-        image: "/assets/HomePage/image 7.png",
+          "Be part of a team that values creativity, collaboration, and continuous learning.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Scalability & Performance Optimization",
+        title: "Career Growth",
         description:
-          "We follow AngularJS best practices to create scalable applications that can handle growing user demands. Our developers also focus on optimizing performance through efficient code structure, lazy loading, and caching strategies.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Cross-Browser & Responsive Applications",
-        description:
-          "Our AngularJS developers build applications that are fully responsive and work seamlessly across all modern browsers and devices, ensuring a consistent experience for every user.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Maintenance & Support",
-        description:
-          "We provide continuous support and maintenance for AngularJS applications, including bug fixing, performance tuning, and feature enhancements to keep your applications up-to-date and secure.",
-        image: "/assets/HomePage/image 7.png",
+          "Advance your skills through mentorship, training, and exposure to complex, real-world projects.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in AngularJS Development",
+        title: "Flexible Work Environment",
         description:
-          "Our developers have deep expertise in AngularJS application development and follow the latest best practices to deliver secure, scalable, and high-performance web solutions.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value deadlines and ensure that your AngularJS projects are delivered on time with the highest quality standards. Our agile workflows keep projects on track and transparent.",
+          "We offer salary packages that reflect your expertise and contributions.",
       },
       {
-        title: "Transparent Communication",
+        title: "Continuous Learning",
         description:
-          "From planning to deployment, we maintain open and consistent communication, keeping you updated on every milestone and ensuring alignment with your business goals.",
+          "Access workshops, certifications, and training programs to stay ahead in AngularJS and frontend development.",
       },
       {
-        title: "Intuitive and Flexible UI",
+        title: "Employee Wellbeing",
         description:
-          "Our AngularJS developers specialize in creating responsive, user-friendly, and adaptable UIs that provide seamless user experiences across devices and browsers.",
+          "Participate in wellness programs, team-building activities, and a supportive work culture.",
       },
       {
-        title: "Ongoing Support and Maintenance",
+        title: "Full Lifecycle Exposure",
         description:
-          "We provide reliable support and maintenance services even after deployment, ensuring your AngularJS applications remain optimized, secure, and up-to-date.",
+          "Gain experience across the complete development lifecycle, from design to deployment and scaling.",
       },
     ],
   },
   {
-    name: "QA Engineers",
-    title: "Hire Expert QA Engineers",
+    name: "QA Engineer",
+    title: "Join Our Team as a QA Engineer",
     description:
-      "At Vebsigns Technologies, QA excellence is our commitment. Our team specializes in implementing rigorous testing processes to deliver reliable and flawless software solutions. Whether you need functional testing, performance testing, or automated testing, our expert QA Engineers ensure the highest standards of quality.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for detail-oriented QA Engineers passionate about delivering reliable and flawless software. At Vebsigns Technologies, you’ll work with a talented team on cutting-edge projects, gaining hands-on experience in testing, automation, and quality assurance processes.",
+    image: "/assets/Careers/qa-dev.png",
     features: [
       {
-        title: "Expertise in Testing Frameworks",
+        title: "Challenging Projects",
         description:
-          "Our QA Engineers are proficient in popular testing frameworks and tools such as Selenium, Cypress, JUnit, TestNG, and Playwright. They ensure reliable test automation and thorough coverage of functionality across your applications.",
-        image: "/assets/HomePage/image 6.png",
+          "Work on diverse web and mobile applications, performing functional, integration, and automated testing to ensure top-notch quality.",
+        image: "/assets/Careers/projects.png",
       },
       {
-        title: "Custom Test Strategies",
+        title: "Latest Testing Tools",
         description:
-          "We design custom testing strategies tailored to your business requirements, covering functional, non-functional, and regression testing to guarantee robust and user-ready applications.",
-        image: "/assets/HomePage/image 7.png",
+          "Gain experience with Selenium, Cypress, JUnit, TestNG, Playwright, and other modern QA tools.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "API & Integration Testing",
+        title: "Collaborative Culture",
         description:
-          "Our QA team specializes in API and integration testing, ensuring that backend services, databases, and third-party APIs work together seamlessly without performance bottlenecks or data integrity issues.",
-        image: "/assets/HomePage/image 7.png",
+          "Be part of a supportive team that values accuracy, problem-solving, and continuous learning.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Performance & Load Testing",
+        title: "Career Growth",
         description:
-          "We perform rigorous performance and load testing to ensure your applications scale efficiently, remain stable under stress, and deliver smooth user experiences during peak traffic.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Cross-Browser & Cross-Platform Testing",
-        description:
-          "Our QA Engineers test applications across multiple browsers, operating systems, and devices to ensure compatibility and consistent performance for all users.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Continuous Support & Maintenance",
-        description:
-          "We provide ongoing QA support and maintenance, conducting regression testing after updates, bug fixes, or new feature releases to maintain long-term software quality.",
-        image: "/assets/HomePage/image 7.png",
+          "Advance your QA skills with mentorship, training, and exposure to large-scale testing environments.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in Quality Assurance",
+        title: "Flexible Work Environment",
         description:
-          "Our QA Engineers bring extensive experience in manual and automated testing, following industry best practices to ensure your applications are bug-free, secure, and reliable.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We understand the importance of deadlines and ensure that all QA processes—testing, reporting, and validation—are executed on time, enabling smooth and timely project delivery.",
+          "We offer salary packages that recognize your skills and contributions.",
       },
       {
-        title: "Transparent Communication",
+        title: "Continuous Learning",
         description:
-          "Our QA team maintains clear and open communication throughout the development lifecycle, keeping you informed about test results, potential risks, and progress updates.",
+          "Access workshops, certifications, and training programs to stay ahead in QA and software testing.",
       },
       {
-        title: "Comprehensive Test Coverage",
+        title: "Employee Wellbeing",
         description:
-          "From functional and regression testing to performance, security, and usability testing, we ensure end-to-end coverage so that no critical issue goes unnoticed.",
+          "Participate in wellness programs, team-building activities, and a supportive work culture.",
       },
       {
-        title: "Ongoing Support and Maintenance",
+        title: "Full Lifecycle Exposure",
         description:
-          "We provide continuous QA support even after deployment, performing regression tests and monitoring updates to ensure your applications remain stable and optimized over time.",
+          "Gain experience across the complete software development lifecycle, from requirements analysis to deployment and post-release QA.",
       },
     ],
   },
   {
-    name: "UI/UX Designers",
-    title: "Hire Creative UI/UX Designers",
+    name: "UI/UX Designer",
+    title: "Join Our Team as a UI/UX Designer",
     description:
-      "At Vebsigns Technologies, we believe great design is the foundation of every successful digital product. Our expert UI/UX designers specialize in crafting intuitive, engaging, and visually stunning user experiences. From wireframes and prototypes to responsive interfaces, we ensure that your product not only looks amazing but also delivers seamless usability across all devices.",
-    image: "/assets/HomePage/image 3.png",
+      "We’re looking for creative UI/UX designers who are passionate about crafting visually stunning and user-friendly digital experiences. At Vebsigns Technologies, you’ll work on diverse projects, from wireframes and prototypes to responsive interfaces, shaping the way users interact with our products.",
+    image: "/assets/Careers/uiux-dev.png",
     features: [
       {
-        title: "User-Centered Design",
+        title: "Challenging Projects",
         description:
-          "Our UI/UX designers prioritize the end-user in every step of the design process. By understanding user behavior, needs, and preferences, we craft interfaces that are intuitive, engaging, and effective.",
-        image: "/assets/HomePage/image 6.png",
+          "Work on diverse web and mobile applications, designing intuitive interfaces and engaging user experiences.",
+        image: "/assets/Careers/projects.png",
       },
       {
-        title: "Custom Design Solutions",
+        title: "Latest Design Tools",
         description:
-          "We deliver tailored design solutions aligned with your brand identity and business goals. From wireframes to high-fidelity prototypes, our designers ensure unique and impactful user experiences.",
-        image: "/assets/HomePage/image 7.png",
+          "Gain hands-on experience with tools like Figma, Sketch, Adobe XD, and InVision to create modern UI/UX designs.",
+        image: "/assets/Careers/tech.png",
       },
       {
-        title: "Interactive Prototyping",
+        title: "Collaborative Culture",
         description:
-          "Our designers create interactive prototypes to validate design ideas and user flows early in the process, reducing risks and ensuring smooth collaboration between stakeholders and developers.",
-        image: "/assets/HomePage/image 7.png",
+          "Join a team that values creativity, feedback, and collaboration between designers, developers, and stakeholders.",
+        image: "/assets/Careers/culture.png",
       },
       {
-        title: "Responsive & Adaptive Interfaces",
+        title: "Career Growth",
         description:
-          "We design responsive and adaptive interfaces that provide a seamless experience across desktops, tablets, and mobile devices, ensuring accessibility and usability everywhere.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Brand Consistency",
-        description:
-          "Our UI/UX experts ensure your product maintains visual and brand consistency, creating cohesive design systems that enhance recognition and trust among your users.",
-        image: "/assets/HomePage/image 7.png",
-      },
-      {
-        title: "Continuous Design Support",
-        description:
-          "We offer ongoing design support, making iterative improvements based on user feedback, analytics, and evolving business needs to keep your product fresh and user-focused.",
-        image: "/assets/HomePage/image 7.png",
+          "Advance your skills through mentorship, design workshops, and exposure to end-to-end product design processes.",
+        image: "/assets/Careers/growth.png",
       },
     ],
     benefits: [
       {
-        title: "Expertise in UI/UX Design",
+        title: "Flexible Work Environment",
         description:
-          "Our designers have extensive experience in creating intuitive, visually stunning, and user-friendly interfaces that align with modern design principles and best practices.",
+          "Maintain a healthy work-life balance with hybrid/remote work options.",
       },
       {
-        title: "Timely Delivery",
+        title: "Competitive Compensation",
         description:
-          "We value your time and ensure all design deliverables—wireframes, prototypes, and final assets—are completed on schedule without compromising creativity or quality.",
+          "We offer salary packages that reflect your skills and creativity.",
       },
       {
-        title: "Transparent Communication",
+        title: "Continuous Learning",
         description:
-          "Our design team collaborates closely with clients, maintaining open communication throughout the design process to ensure the final product matches your vision and goals.",
+          "Access design workshops, certifications, and learning programs to stay ahead in UI/UX design.",
       },
       {
-        title: "User-Centered Approach",
+        title: "Employee Wellbeing",
         description:
-          "We place users at the heart of the design process, ensuring that every interface we create is intuitive, accessible, and focused on delivering a seamless user experience.",
+          "Participate in wellness programs, team-building activities, and a supportive work culture.",
       },
       {
-        title: "Ongoing Design Support",
+        title: "Full Design Lifecycle Experience",
         description:
-          "Our work doesn’t stop at delivery—we provide continuous design support and improvements based on user feedback and evolving market trends to keep your product fresh and engaging.",
+          "Gain experience across the complete design process, from research and wireframing to prototyping and post-launch iterations.",
       },
     ],
   },
