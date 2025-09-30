@@ -4,6 +4,7 @@ import AppRoutes from "./routes";
 import CookieBanner from "./Components/CookieBanner";
 import CookieSettings from "./Components/CookieSettings";
 import { Toaster } from "react-hot-toast";
+import ScrollToHash from "./Components/ScrollToHash";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Router>
       <Toaster position="top-right" reverseOrder={false} />
       <AppRoutes />
+      <ScrollToHash />
       <CookieBanner onOpenSettings={openCookieSettings} />
       {isCookieModalOpen && <CookieSettings onClose={closeCookieSettings} />}
     </Router>

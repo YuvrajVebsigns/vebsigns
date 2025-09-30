@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const QuickLinks = () => {
   return (
@@ -12,18 +13,18 @@ const QuickLinks = () => {
 
         {/* Right Side (Links) */}
         <nav className="flex flex-wrap justify-center sm:justify-end gap-3 sm:gap-6 text-base sm:text-lg">
-          <a href="#about" className="hover:underline">
+          <Link to="/about" className="hover:underline">
             About us
-          </a>
-          <a href="#stories" className="hover:underline">
-            Customer stories
-          </a>
-          <a href="#why-us" className="hover:underline">
+          </Link>
+          <Link to="/use-cases" className="hover:underline">
+            Case Studies
+          </Link>
+          <Link to="/#why-choose" className="hover:underline">
             Why choose us
-          </a>
-          <a href="#contact" className="hover:underline">
+          </Link>
+          <Link to="/contact" className="hover:underline">
             Contact us
-          </a>
+          </Link>
         </nav>
       </div>
     </section>

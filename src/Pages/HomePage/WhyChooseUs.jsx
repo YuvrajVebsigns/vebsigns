@@ -75,7 +75,7 @@ const features = [
 const WhyChooseUs = () => {
 
     return (
-        <section className="relative bg-[#0b0225] py-16 md:py-20 text-white overflow-hidden">
+        <section id="why-choose" className="relative bg-[#0b0225] py-16 md:py-20 text-white overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Top Heading (Centered) */}
