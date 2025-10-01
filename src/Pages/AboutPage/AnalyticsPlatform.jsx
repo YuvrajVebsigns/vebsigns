@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Counter from "../../Components/Counter";
+import { Link } from "react-router-dom";
 
 const fadeUp = {
     hidden: { opacity: 0, y: 30 },
@@ -15,28 +16,188 @@ const fadeUp = {
 
 const analyticsData = [
     {
-        title: "Analytics Platform",
+        title: "Ayurythm - Health & Wellness",
+        path: "https://www.ayurythm.com/",
         description:
-            "Provides employees with unified data & tools for advanced analysis, helping identify problems & derive meaningful insights.",
+            "A holistic health app blending Ayurveda, yoga, and modern technology to deliver personalized wellness, diet, and lifestyle guidance.",
         stats: [
-            { label: "Before", value: "58M", description: "Million digital interactions" },
-            { label: "After", value: "96%", description: "Growth in new customers" },
+            { label: "Downloads", value: "800K+", description: "App downloads across Android & iOS" },
+            { label: "Remedies", value: "1800+", description: "Ayurvedic home remedies available" },
         ],
         cta: {
-            text: "Have an idea? Our team is ready to guide you with tailored solutions.",
+            text: "Discover your personalized Ayurvedic wellness plan — visit ayurythm.com or download the app today.",
         },
-        image: { src: "/assets/HomePage/AP.png", alt: "Tablet", width: 650 },
+        image: { src: "/assets/HomePage/AP.png", alt: "Ayurythm App", width: 650 },
     },
     {
-        title: "Business Insights",
+        title: "IIFL Finance – Diversified Financial Services",
+        path: "https://www.iifl.com/finance/",
         description:
-            "Empowers leaders with real-time analytics dashboards and predictive insights for smarter decision-making.",
+            "Leading NBFC in India providing home, gold, business & micro-finance through extensive branch & digital network.",
         stats: [
-            { label: "Before", value: "20M", description: "Data records" },
-            { label: "After", value: "75%", description: "Faster reporting" },
+            { label: "AUM", value: "78,341 Cr", description: "Assets under management (as on Mar 31, 2025)" },
+            { label: "Branches", value: "2,600+", description: "Branches across 500+ cities in India" },
         ],
-        cta: { text: "Transform your data into actionable insights." },
-        image: { src: "/assets/HomePage/AP.png", alt: "Dashboard", width: 650 },
+        cta: {
+            text: "Explore IIFL's financial solutions — visit iifl.com/finance for loans, investments & more.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "IIFL Finance", width: 650 },
+    },
+    {
+        title: "Cheesiano – Delicious Food Delivered Fast",
+        path: "https://www.cheesiano.com",
+        description:
+            "Seamless food delivery platform offering a wide range of cuisines from local restaurants with real-time tracking and easy ordering.",
+        stats: [
+            { label: "Active Restaurants", value: "500+", description: "Partnered local restaurants across multiple cities" },
+            { label: "Orders Served", value: "120K+", description: "Meals delivered with speed and reliability" },
+        ],
+        cta: {
+            text: "Order your favorite meals now — visit cheesiano.com for fast, delicious food delivered to your door.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "Cheesiano Food Delivery", width: 650 },
+    },
+    {
+        title: "SWAAS – Seamless Online Shopping Experience",
+        path: "https://www.swaas.com",
+        description:
+            "E-commerce platform offering a wide range of products across categories with user-friendly navigation, secure payments, and fast delivery.",
+        stats: [
+            { label: "Products Available", value: "50K+", description: "Variety of items across multiple categories" },
+            { label: "Cities Served", value: "200+", description: "Fast delivery across numerous locations in India" },
+        ],
+        cta: {
+            text: "Shop now and enjoy hassle-free online shopping — visit swaas.com for great deals and convenience.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "SWAAS Online Shopping", width: 650 },
+    },
+    {
+        title: "Thanatkorn – E-Order Platform for Retailers & Manufacturers",
+        path: "https://www.thanatkorn.com",
+        description:
+            "Thailand-based E-Order platform allowing users to manufacture products, sell to distributors, purchase from manufacturers, and manage stock efficiently.",
+        stats: [
+            { label: "Active Users", value: "15K+", description: "Retailers, distributors, and manufacturers using the platform" },
+            { label: "Products Managed", value: "10K+", description: "Track and manage stock across multiple categories and suppliers" },
+        ],
+        cta: {
+            text: "Start managing your products and stock seamlessly — visit thanatkorn.com for more details.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "Thanatkorn E-Order Platform", width: 650 },
+    },
+    {
+        title: "CricMaths – Where Cricket Meets Maths",
+        path: "https://www.cricmaths.com",
+        description:
+            "Platform connecting children’s love for cricket with engaging maths education, creating a fun and educational community in India and beyond.",
+        stats: [
+            { label: "Active Students", value: "25K+", description: "Children learning maths through cricket-based challenges" },
+            { label: "Interactive Modules", value: "100+", description: "Engaging cricket-themed maths lessons and activities" },
+        ],
+        cta: {
+            text: "Join the fun and make maths exciting — visit cricmaths.com to explore games and learning modules.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "CricMaths Educational Platform", width: 650 },
+    },
+    {
+        title: "Jamaica Craft Café – Passion for Coffee",
+        path: "https://www.jamaicacraftcafe.com",
+        description:
+            "Coffee café founded by Mr. Thanat Thanaboriboon, offering expertly crafted coffee to energize your mornings and create a warm, inviting experience.",
+        stats: [
+            { label: "Signature Coffees", value: "50+", description: "Variety of specialty coffee blends and beverages" },
+            { label: "Locations", value: "3+", description: "Cafés across key areas in Jamaica providing a vibrant coffee experience" },
+        ],
+        cta: {
+            text: "Start your day with the perfect cup — visit jamaicacraftcafe.com to explore our menu and locations.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "Jamaica Craft Café", width: 650 },
+    },
+    {
+        title: "Junkky – Smart Waste Collection",
+        path: "https://www.junkky.com",
+        description:
+            "Pune-based startup providing efficient waste collection services for homes, businesses, and communities, promoting cleanliness and sustainability.",
+        stats: [
+            { label: "Cities Covered", value: "1", description: "Currently operating in Pune" },
+            { label: "Waste Collected", value: "500+", description: "Tons of waste processed monthly" },
+        ],
+
+        cta: {
+            text: "Schedule a pickup and contribute to a cleaner city — visit junkky.com to book waste collection services.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "Junkky Waste Collection", width: 650 },
+    },
+    {
+        title: "ONGC – Smart Monitoring App",
+        path: "https://www.ongcsmartapp.com",
+        description:
+            "IoT-based monitoring app providing real-time data on well performance, intuitive charts, and comprehensive oversight for efficient operations management.",
+        stats: [
+            { label: "Wells Monitored", value: "500+", description: "Real-time monitoring of multiple wells across regions" },
+            { label: "Data Points Collected", value: "1M+/day", description: "Extensive IoT sensor data for accurate decision-making" },
+        ],
+        cta: {
+            text: "Optimize well operations with real-time insights — visit ongcsmartapp.com to learn more.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "ONGC Smart Monitoring App", width: 650 },
+    },
+    {
+        title: "The Actor's Truth – Acting Workshops & Training",
+        path: "https://www.theactorstruth.com",
+        description:
+            "Founded by Saurabh Sachdeva in 2017, The Actor's Truth offers workshops and training programs to help actors overcome performance challenges and enhance their craft.",
+        stats: [
+            { label: "Workshops Conducted", value: "200+", description: "Hands-on acting workshops led by industry experts" },
+            { label: "Students Trained", value: "5,000+", description: "Aspiring actors nurtured with practical and sensitive training" },
+        ],
+        cta: {
+            text: "Enhance your acting skills and join workshops — visit theactorstruth.com to enroll.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "The Actor's Truth Acting Academy", width: 650 },
+    },
+    {
+        title: "Haigreve E-Order – Retailer & Manufacturer Platform",
+        path: "https://www.haigreve.com",
+        description:
+            "Thailand-based app enabling users to act as retailers, distributors, and manufacturers. Manage stock, manufacture products, and streamline buying and selling across the supply chain.",
+        stats: [
+            { label: "User Types", value: "3", description: "Retailer • Distributor • Manufacturer" },
+            { label: "Products Managed", value: "10K+", description: "Inventory across suppliers" },
+        ],
+
+        cta: {
+            text: "Manage your products and stock seamlessly — visit haigreve.com to get started.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "Haigreve E-Order App", width: 650 },
+    },
+    {
+        title: "Good Good Piggy – Digital Piggy Bank for Kids",
+        path: "https://www.goodgoodpiggy.com",
+        description:
+            "A fintech app designed to teach children aged 4+ about money management, savings, and financial responsibility through interactive tools and parent-controlled features.",
+        stats: [
+            { label: "Downloads", value: "5,000+", description: "Available on Google Play Store" },
+            { label: "Age Rating", value: "4+", description: "Designed for children aged 4 and above" },
+        ],
+        cta: {
+            text: "Empower your child with financial literacy — download the Good Good Piggy app today.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "Good Good Piggy App", width: 650 },
+    },
+    {
+        title: "Jaguar Plumbing – Reliable Plumbing Solutions",
+        path: "https://www.jaguarplumbing.com",
+        description:
+            "Professional plumbing services offering installation, repair, and maintenance for residential and commercial clients, ensuring fast, reliable, and efficient solutions.",
+        stats: [
+            { label: "Years in Service", value: "10+", description: "Trusted plumbing services with a decade of experience" },
+            { label: "Projects Completed", value: "5,000+", description: "Residential and commercial plumbing projects successfully handled" },
+        ],
+        cta: {
+            text: "Book expert plumbing services today — visit jaguarplumbing.com to schedule an appointment.",
+        },
+        image: { src: "/assets/HomePage/AP.png", alt: "Jaguar Plumbing Services", width: 650 },
     },
 ];
 
@@ -92,7 +253,7 @@ const AnalyticsSlider = () => {
                                                 <p className="text-white text-sm sm:text-base">
                                                     {stat.label}
                                                 </p>
-                                                <h3 className="text-5xl sm:text-6xl md:text-8xl font-normal text-blue-500 mt-2">
+                                                <h3 className="text-5xl sm:text-6xl md:text-6xl font-normal text-blue-500 mt-2">
                                                     <Counter value={stat.value} />
                                                 </h3>
                                                 <p className="text-gray-400 font-semibold text-xs sm:text-sm md:text-base mt-1">
@@ -113,9 +274,11 @@ const AnalyticsSlider = () => {
                                         transition={{ delay: 0.8 }}
                                         className="mt-6 flex items-center justify-center md:justify-start gap-2 cursor-pointer"
                                     >
-                                        <p className="text-sm sm:text-base md:text-lg text-white hover:text-blue-500 hover:underline">
+                                        <Link to={data.path}
+                                            target="_blank"
+                                            className="text-sm sm:text-base md:text-lg text-white hover:text-blue-500 hover:underline">
                                             {data.cta.text}
-                                        </p>
+                                        </Link>
                                         <span className="bg-white hover:bg-blue-500 hover:text-white text-blue-500 rounded-full p-1 flex items-center justify-center h-6 w-6">
                                             <ArrowRight />
                                         </span>

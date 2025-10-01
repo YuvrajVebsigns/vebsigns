@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from "framer-motion";
+import { useNavigate } from 'react-router-dom';
+
 
 
 const HeroSection = () => {
+    const navigate = useNavigate();
+
     const [isMobile, setIsMobile] = useState(false);
     useEffect(() => {
         // Function to check if viewport is mobile
@@ -115,6 +119,7 @@ const HeroSection = () => {
                             <motion.button
                                 className="mt-1 px-1 py-1 h-[30px] w-[130px] text-[8px] bg-[#1b4bf0] text-white font-light rounded-full hover:bg-[#ecf00c] hover:text-black transition flex items-center justify-center gap-2"
                                 variants={itemVariants}
+                                onClick={() => navigate("/contact")}
                             >
                                 Building wealth, creating futures.
                             </motion.button>
@@ -219,6 +224,7 @@ const HeroSection = () => {
                             <motion.button
                                 className="mt-4 px-6 py-3 h-[63px] w-[350px] bg-[#1b4bf0] text-white font-light rounded-full hover:bg-[#ecf00c] hover:text-black transition flex items-center justify-center gap-2"
                                 variants={itemVariants}
+                                onClick={() => navigate("/contact")}
                             >
                                 Building wealth, creating futures.
                             </motion.button>

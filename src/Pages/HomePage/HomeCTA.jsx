@@ -29,7 +29,7 @@ const HomeCTA = () => {
                 {/* CTA Button */}
                 <div className="mt-8">
                     <a
-                        href="#"
+                        href="/contact"
                         className="inline-block px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-lg sm:text-xl font-medium transition"
                     >
                         Let’s Talk About Your Project

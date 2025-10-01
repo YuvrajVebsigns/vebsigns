@@ -52,7 +52,6 @@ const DrivenByData = () => {
                     {cards.map((card, index) => (
                         <a
                             key={index}
-                            href="#"
                             className="flex flex-col items-center justify-center bg-white border border-gray-200 rounded-xl shadow-md hover:shadow-lg hover:bg-gray-50 transition p-8 w-full max-w-sm h-[400px]"
                         >
                             {/* Letter Circle */}
