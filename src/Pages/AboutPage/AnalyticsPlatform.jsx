@@ -155,7 +155,7 @@ const analyticsData = [
         cta: {
             text: "Schedule a pickup and contribute to a cleaner city — visit junkky.com to book waste collection services.",
         },
-        image: { src: "/assets/HomePage/AP.png", alt: "Junkky Waste Collection", width: 650 },
+        image: { src: "/assets/HomePage/junky.svg", alt: "Junkky Waste Collection", width: 650 },
     },
     {
         title: "ONGC – Smart Monitoring App",
