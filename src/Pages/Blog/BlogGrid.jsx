@@ -8,15 +8,36 @@ const BlogGrid = () => {
     const [blogPosts, setBlogPosts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
+    const [currentPage, setCurrentPage] = useState(1);
+    const [totalPages, setTotalPages] = useState(1);
+    const limit = 10; // blogs per page
 
+    // useEffect(() => {
+    //     const getBlogs = async () => {
+    //         setLoading(true);
+    //         setError("");
+    //         try {
+    //             const response = await fetchBlogs({ page: 1, limit: 10 });
+    //             console.log(response.data);
+    //             setBlogPosts(response.data.blogs || []);
+    //         } catch (err) {
+    //             console.error(err);
+    //             setError("Failed to load blogs.");
+    //         } finally {
+    //             setLoading(false);
+    //         }
+    //     };
+
+    //     getBlogs();
+    // }, []);
     useEffect(() => {
         const getBlogs = async () => {
             setLoading(true);
             setError("");
             try {
-                const response = await fetchBlogs({ page: 1, limit: 10 });
-                console.log(response.data);
+                const response = await fetchBlogs({ page: currentPage, limit });
                 setBlogPosts(response.data.blogs || []);
+                setTotalPages(response.data.totalPages || 1);
             } catch (err) {
                 console.error(err);
                 setError("Failed to load blogs.");
@@ -26,7 +47,7 @@ const BlogGrid = () => {
         };
 
         getBlogs();
-    }, []);
+    }, [currentPage]);
 
     if (loading) {
         return <p className="text-center mt-10">Loading blogs...</p>;
@@ -121,6 +142,37 @@ const BlogGrid = () => {
                             </div>
                         </Link>
                     ))}
+                </div>
+                {/* Pagination */}
+                <div className="flex justify-center mt-12 space-x-2">
+                    <button
+                        onClick={() => setCurrentPage(p => Math.max(p - 1, 1))}
+                        disabled={currentPage === 1}
+                        className={`px-4 py-2 rounded-full text-sm font-medium transition 
+                          ${currentPage === 1 ? "bg-gray-200 text-gray-500 cursor-not-allowed" : "bg-white border hover:bg-blue-600 hover:text-white"}`}
+                    >
+                        Prev
+                    </button>
+
+                    {[...Array(totalPages)].map((_, i) => (
+                        <button
+                            key={i}
+                            onClick={() => setCurrentPage(i + 1)}
+                            className={`px-4 py-2 rounded-full text-sm font-medium transition 
+                              ${currentPage === i + 1 ? "bg-blue-600 text-white shadow-md" : "bg-white border hover:bg-blue-600 hover:text-white"}`}
+                        >
+                            {i + 1}
+                        </button>
+                    ))}
+
+                    <button
+                        onClick={() => setCurrentPage(p => Math.min(p + 1, totalPages))}
+                        disabled={currentPage === totalPages}
+                        className={`px-4 py-2 rounded-full text-sm font-medium transition 
+                          ${currentPage === totalPages ? "bg-gray-200 text-gray-500 cursor-not-allowed" : "bg-white border hover:bg-blue-600 hover:text-white"}`}
+                    >
+                        Next
+                    </button>
                 </div>
             </div>
         </section>

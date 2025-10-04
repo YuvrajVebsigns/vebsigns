@@ -54,7 +54,7 @@ const About = () => {
             {/* Timeline Stepper Component */}
             <TimelineStepper />
             <AnalyticsSlider />
-            <LeadingCompanies />
+            {/* <LeadingCompanies /> */}
             <DrivenByData />
             <Team />
             <Locations />

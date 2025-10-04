@@ -188,7 +188,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <BrainCircuit size={24} />
+                                                        {/* <BrainCircuit size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-06.svg" alt="" className='w-[30px]' />
                                                         <span>AI/ML Strategy and Consulting</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -199,7 +200,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <BarChart3 size={24} />
+                                                        {/* <BarChart3 size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-01.svg" alt="" className='w-[30px]' />
                                                         <span>Data Science and Data Analytics</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -210,7 +212,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Sparkles size={24} />
+                                                        {/* <Sparkles size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-07.svg" alt="" className='w-[30px]' />
                                                         <span>Gen AI For Business Transformation</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -221,7 +224,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Bot size={24} />
+                                                        {/* <Bot size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-08.svg" alt="" className='w-[30px]' />
                                                         <span>OpenAI Consulting Services</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -232,7 +236,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Search size={24} />
+                                                        {/* <Search size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-09.svg" alt="" className='w-[30px]' />
                                                         <span>Search Engine Optimization Services</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -243,7 +248,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Layers size={24} />
+                                                        {/* <Layers size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-10.svg" alt="" className='w-[30px]' />
                                                         <span>The Comprehensive AI Ecosystem</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -254,8 +260,10 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Layers size={24} />
-                                                        <span>Website Design & Development</span>
+                                                        {/* <Layers size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-11.svg" alt="" className='w-[30px]' />
+
+                                                        <span>Website Development</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
                                                 </Link>
@@ -265,8 +273,10 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Layers size={24} />
-                                                        <span>App Design & Development</span>
+                                                        {/* <Layers size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-12.svg" alt="" className='w-[30px]' />
+
+                                                        <span>App Development</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
                                                 </Link>
@@ -276,12 +286,12 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Layers size={24} />
-                                                        <span>UI/UX Design</span>
+                                                        {/* <Layers size={24} /> */}
+                                                        <img src="/assets/HomePage/UI UX-13.svg" alt="" className='w-[30px]' />
+                                                        <span>UI / UX Design</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
                                                 </Link>
-
                                             </div>
                                         </div>
 
@@ -294,7 +304,9 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <UserCheck size={24} />
+                                                        {/* <UserCheck size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-14.svg" alt="" className='w-[30px]' />
+
                                                         <span>IoT Product Development</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -305,7 +317,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <LineChart size={24} />
+                                                        {/* <LineChart size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-15.svg" alt="" className='w-[30px]' />
                                                         <span>Bulk Manufacturing & Device Management</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -316,7 +329,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Smile size={24} />
+                                                        {/* <Smile size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-16.svg" alt="" className='w-[30px]' />
                                                         <span>Implementation & System Integration</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -327,7 +341,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Database size={24} />
+                                                        {/* <Database size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-17.svg" alt="" className='w-[30px]' />
                                                         <span>Strategic & Advisory Services</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
@@ -338,7 +353,8 @@ export default function Header() {
                                                     className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
                                                 >
                                                     <span className="relative z-10 flex items-center gap-2">
-                                                        <Utensils size={24} />
+                                                        {/* <Utensils size={24} /> */}
+                                                        <img src="/assets/HomePage/drop down icons-18.svg" alt="" className='w-[30px]' />
                                                         <span>Predictive Maintenance & Analytics</span>
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>

@@ -8,7 +8,7 @@ const DigitalTransformation = () => {
     const cardData = [
         {
             id: 1,
-            image: "/assets/HomePage/open-ai-1.png",
+            image: "/assets/HomePage/open-ai-1.svg",
             number: "1.",
             description: " IT Services & End-to-End Technology Solutions",
             buttonText: "Go to About Page",
@@ -19,7 +19,7 @@ const DigitalTransformation = () => {
         },
         {
             id: 2,
-            image: "/assets/HomePage/ai2.png",
+            image: "/assets/HomePage/i3.png",
             number: "2.",
             description: "Innovative IoT Solutions for Smarter Businesses",
             buttonText: "Go to About Page",
@@ -30,7 +30,7 @@ const DigitalTransformation = () => {
         },
         {
             id: 3,
-            image: "/assets/HomePage/i3.png",
+            image: "/assets/HomePage/ai2.png",
             number: "3.",
             description: "AI-Powered Products & Intelligent Business Transformation",
             buttonText: "Go to About Page",
