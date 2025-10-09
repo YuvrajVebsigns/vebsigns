@@ -16,7 +16,8 @@ import {
     Smile,
     Database,
     Utensils,
-    ShoppingBag, Menu, X
+    ShoppingBag, Menu, X,
+    Phone
 } from "lucide-react";
 import { useState } from 'react';
 
@@ -37,9 +38,9 @@ export default function Header() {
 
     return (
         // <header className="bg-[#1849FF] text-white px-6 py-5">
-        <header className="bg-gradient-to-b from-[#0a0220] to-[#120536] text-white px-6 py-5">
+        <header className="fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-[#0a0220] to-[#120536] text-white px-6 py-5 shadow-lg">
 
-            <div className="max-w-7xl mx-auto flex items-center justify-between h-20">
+            <div className="max-w-7xl mx-auto flex items-center justify-between h-14">
 
                 {/* Left - Logo */}
                 <div className="flex items-center space-x-2">
@@ -592,7 +593,7 @@ export default function Header() {
                 <div className="hidden md:flex items-center space-x-4 text-lg">
 
                     <div className="flex items-center space-x-4 text-lg">
-                        <span className="hidden md:inline">Need help:</span>
+                        <span className="hidden md:inline"><Phone /></span>
                         <a href="tel:+9199708 76727" className="font-semibold">
                             +91 99708 76727
                         </a>
@@ -606,7 +607,7 @@ export default function Header() {
 
 
                         {/* Social Icons */}
-                        <div className="flex space-x-3">
+                        {/* <div className="flex space-x-3">
                             <a
                                 href="https://www.facebook.com/VebsignsTechnologies/"
                                 aria-label="Facebook"
@@ -652,7 +653,7 @@ export default function Header() {
                             >
                                 <FaYoutube />
                             </a>
-                        </div>
+                        </div> */}
 
                     </div>
                     <button className="md:hidden flex items-center space-x-1 bg-white text-[#1849FF] px-3 py-1 rounded-lg font-medium">

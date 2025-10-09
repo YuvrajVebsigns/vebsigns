@@ -41,7 +41,7 @@ const HeroSection = () => {
         <div>
             {/* Mobile View code start */}
             {isMobile ? (
-                <div className="w-full  flex items-center justify-center">
+                <div className="w-full  flex items-center justify-center mt-24">
                     <div className="relative bg-gradient-to-r from-[#3DB6D9] via-[#3FBEB9] to-[#42C897] w-[1200px] h-[223px] sm:w-[80vw] sm:h-[50vw] transform scale-[1] sm:scale-[0.8] overflow-hidden">
                         {/* All your content goes here */}
                         <img
@@ -128,7 +128,7 @@ const HeroSection = () => {
                 </div>
             ) : (
 
-                <div className="w-full overflow-hidden">
+                <div className="w-full overflow-hidden mt-24">
                     <div className="bg-gradient-to-r from-[#3DB6D9] via-[#3FBEB9] to-[#42C897] h-[100vh] md:h-[100vh] sm:h-[60vh] flex items-center justify-center relative">
                         {/* Background white shape */}
                         <img

@@ -85,6 +85,8 @@
 // export default Footer;
 
 import { FaFacebookF, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
+import { FaInstagram, FaYoutube } from "react-icons/fa";
+
 import { Field, Input, Label, Button } from '@headlessui/react'
 import { Link } from "react-router-dom";
 
@@ -94,13 +96,70 @@ const Footer = () => {
         <footer className="relative bg-gradient-to-br from-[#0B0223] via-[#150544] to-[#0B0223] text-gray-300 px-6 md:px-16 py-12">
             {/* Newsletter Section */}
             <div className="grid md:grid-cols-2 gap-8 relative z-10">
-                <div className="flex flex-col items-start">
-                    <img src="/assets/Header/vebsigns.png" alt="Vebsigns Logo" className="w-40 sm:w-48" />
+                <div className="flex flex-col items-start space-y-5">
+                    {/* Logo */}
+                    <img
+                        src="/assets/Header/vebsigns.png"
+                        alt="Vebsigns Logo"
+                        className="w-36 sm:w-48"
+                    />
 
-                    <p className="text-xs text-gray-400 mt-4 max-w-sm">
-                        Empower your business with innovative technology. Streamline operations, enhance connectivity, and unlock growth with tailored IT and IoT services.
+                    {/* Description */}
+                    <p className="text-sm text-gray-400 leading-relaxed max-w-xs sm:max-w-sm">
+                        Empower your business with innovative technology. Streamline operations,
+                        enhance connectivity, and unlock growth with tailored IT and IoT services.
                     </p>
+
+                    {/* Social Icons */}
+                    <div className="flex items-center space-x-4 text-gray-400 mt-2">
+                        <a
+                            href="https://www.facebook.com/VebsignsTechnologies/"
+                            aria-label="Facebook"
+                            className="hover:text-white transition-colors duration-200"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaFacebookF className="text-lg sm:text-xl" />
+                        </a>
+                        <a
+                            href="https://x.com/vebsigns"
+                            aria-label="Twitter"
+                            className="hover:text-white transition-colors duration-200"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaXTwitter className="text-lg sm:text-xl" />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/company/vebsigns/"
+                            aria-label="LinkedIn"
+                            className="hover:text-white transition-colors duration-200"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaLinkedinIn className="text-lg sm:text-xl" />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/vebsigns/"
+                            aria-label="Instagram"
+                            className="hover:text-white transition-colors duration-200"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaInstagram className="text-lg sm:text-xl" />
+                        </a>
+                        <a
+                            href="https://www.youtube.com/channel/UC1vWQgIJIrHZcrjKL-eTsiQ"
+                            aria-label="YouTube"
+                            className="hover:text-white transition-colors duration-200"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaYoutube className="text-lg sm:text-xl" />
+                        </a>
+                    </div>
                 </div>
+
 
                 {/* Links Section */}
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-sm">
