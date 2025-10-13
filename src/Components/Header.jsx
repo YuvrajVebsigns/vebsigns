@@ -148,7 +148,8 @@ export default function Header() {
                                             className="relative flex items-center gap-2 px-3 py-2 rounded overflow-hidden group"
                                         >
                                             <span className="relative z-10 flex items-center gap-2">
-                                                <FileText className="w-4 h-4" />
+                                                {/* <FileText className="w-4 h-4" /> */}
+                                                <img src="/assets/HomePage/hire - company.svg" alt="" className='w-[16px]' />
                                                 Hire Developers
                                             </span>
                                             <span className="absolute left-0 top-0 h-full w-0 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>
@@ -159,7 +160,8 @@ export default function Header() {
                                             className="relative flex items-center gap-2 px-3 py-2 rounded overflow-hidden group"
                                         >
                                             <span className="relative z-10 flex items-center gap-2">
-                                                <DollarSign className="w-4 h-4" />
+                                                {/* <DollarSign className="w-4 h-4" /> */}
+                                                <img src="/assets/HomePage/blog - company.svg" alt="" className='w-[16px]' />
                                                 Blogs
                                             </span>
                                             <span className="absolute left-0 top-0 h-full w-0 bg-gray-100 transition-all duration-300 group-hover:w-full"></span>

@@ -102,14 +102,14 @@ export default function Faq() {
                             viewport={{ once: true }}
                             transition={{ duration: 1, repeat: 1, ease: "easeInOut" }}
                         >
-                            <p className="font-semibold text-base">Project</p>
+                            <p className="font-semibold text-base">Customer Happiness</p>
                             <h3 className="text-8xl font-normal">
-                                {count1}
-                                <span className="text-5xl">%</span>
+                                95<span className="text-5xl">%</span>
                             </h3>
                             <p className="text-base text-left mt-1 px-2">
-                                Reported that their online experience
+                                Satisfaction rate with our services
                             </p>
+
                         </motion.div>
                     </div>
 
@@ -151,11 +151,14 @@ export default function Faq() {
                             transition={{ duration: 1, repeat: 1, ease: "easeInOut" }}
                             className="bg-[#F3F945] text-[#1B4BF0] w-[220px] h-[250px] flex flex-col justify-center text-right px-4 rounded-lg rotate-[7deg] shadow-lg origin-top-left"
                         >
-                            <p className="font-semibold text-base">Project</p>
-                            <h3 className="text-8xl font-normal">{count2}</h3>
+                            <p className="font-semibold text-base">Completed</p>
+                            <h3 className="text-8xl font-normal">
+                                85<span className="text-5xl">+</span>
+                            </h3>
                             <p className="text-base text-right mt-1 px-2">
-                                Reported that their online experience
+                                Projects successfully delivered
                             </p>
+
                         </motion.div>
                     </div>
                 </div>
