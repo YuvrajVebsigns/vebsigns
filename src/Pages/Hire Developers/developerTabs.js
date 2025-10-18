@@ -30,21 +30,25 @@ export const developerTabs = [
         title: "Experienced Team",
         description:
           "Our team consists of skilled developers with years of experience in Flutter.",
+        image: "/assets/hire dev/experienced team.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We ensure that your project is completed and delivered on time.",
+        image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Client-Centric Approach",
         description:
           "We prioritize our clients' needs and ensure transparency throughout the project.",
+        image: "/assets/hire dev/.svg",
       },
       {
         title: "Post-Launch Support",
         description:
           "Our support continues even after your project's launch to ensure smooth operation.",
+        image: "/assets/hire dev/post launch support.svg",
       },
     ],
   },
@@ -97,26 +101,31 @@ export const developerTabs = [
         title: "Expertise in Android Development",
         description:
           "Our developers have extensive experience in Android app development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+        image: "/assets/hire dev/why choose us-06.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+        image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+        image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+        image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Support and Maintenance",
         description:
           "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -163,26 +172,31 @@ export const developerTabs = [
         title: "Expertise in iOS Development",
         description:
           "Our developers have extensive experience in IOS app development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          image: "/assets/hire dev/why choose us-14.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Support and Maintenance",
         description:
           "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -235,26 +249,31 @@ export const developerTabs = [
         title: "Expertise in PHP Development",
         description:
           "Our developers have extensive experience in Php Web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          image: "/assets/hire dev/why choose us-02.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Support and Maintenance",
         description:
           "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -307,26 +326,31 @@ export const developerTabs = [
         title: "Expertise in Java Development",
         description:
           "Our developers have extensive experience in Java Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          image: "/assets/hire dev/why choose us-08.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Support and Maintenance",
         description:
           "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -379,26 +403,31 @@ export const developerTabs = [
         title: "Expertise in Python Development",
         description:
           "Our developers have extensive experience in Python Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          image: "/assets/hire dev/why choose us-13.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Support and Maintenance",
         description:
           "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -439,26 +468,31 @@ export const developerTabs = [
         title: "Expertise in ReactJS Development",
         description:
           "Our developers have extensive experience in React Js web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          image: "/assets/hire dev/why choose us-01.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Support and Maintenance",
         description:
           "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -511,26 +545,31 @@ export const developerTabs = [
         title: "Expertise in NodeJS Development",
         description:
           "Our developers have extensive experience in Node JS Web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          image: "/assets/hire dev/why choose us-07.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Support and Maintenance",
         description:
           "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -568,29 +607,34 @@ export const developerTabs = [
     ],
     benefits: [
       {
-        title: "Expertise in NodeJS Development",
+        title: "Expertise in NextJS Development",
         description:
-          "Our developers have extensive experience in Node JS Web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          "Our developers have extensive experience in Next JS Web Application development and stay updated with the latest trends and best practices to deliver top-notch solutions.",
+          image: "/assets/hire dev/why choose us-07.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and strive to deliver projects on time, every time. Our agile development approach ensures efficient project management and timely delivery without compromising quality.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "We believe in fostering open and transparent communication with our clients throughout the development process. You’ll always be kept in the loop, from project kickoff to delivery and beyond.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Get veteran developers and designers to build easy to implement self-descriptive yet flexible UI for your app.",
+          image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Support and Maintenance",
         description:
           "Access reliable support and maintenance teams to assist you during and post development and delivery.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -643,26 +687,31 @@ export const developerTabs = [
         title: "Expertise in AngularJS Development",
         description:
           "Our developers have deep expertise in AngularJS application development and follow the latest best practices to deliver secure, scalable, and high-performance web solutions.",
+          image: "/assets/hire dev/why choose us-09.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value deadlines and ensure that your AngularJS projects are delivered on time with the highest quality standards. Our agile workflows keep projects on track and transparent.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "From planning to deployment, we maintain open and consistent communication, keeping you updated on every milestone and ensuring alignment with your business goals.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Intuitive and Flexible UI",
         description:
           "Our AngularJS developers specialize in creating responsive, user-friendly, and adaptable UIs that provide seamless user experiences across devices and browsers.",
+          image: "/assets/hire dev/why choose us-11.svg",
       },
       {
         title: "Ongoing Support and Maintenance",
         description:
           "We provide reliable support and maintenance services even after deployment, ensuring your AngularJS applications remain optimized, secure, and up-to-date.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -715,26 +764,31 @@ export const developerTabs = [
         title: "Expertise in Quality Assurance",
         description:
           "Our QA Engineers bring extensive experience in manual and automated testing, following industry best practices to ensure your applications are bug-free, secure, and reliable.",
+          image: "/assets/hire dev/why choose us-05.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We understand the importance of deadlines and ensure that all QA processes—testing, reporting, and validation—are executed on time, enabling smooth and timely project delivery.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "Our QA team maintains clear and open communication throughout the development lifecycle, keeping you informed about test results, potential risks, and progress updates.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "Comprehensive Test Coverage",
         description:
           "From functional and regression testing to performance, security, and usability testing, we ensure end-to-end coverage so that no critical issue goes unnoticed.",
+          image: "/assets/hire dev/why choose us-10.svg",
       },
       {
         title: "Ongoing Support and Maintenance",
         description:
           "We provide continuous QA support even after deployment, performing regression tests and monitoring updates to ensure your applications remain stable and optimized over time.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
@@ -787,26 +841,31 @@ export const developerTabs = [
         title: "Expertise in UI/UX Design",
         description:
           "Our designers have extensive experience in creating intuitive, visually stunning, and user-friendly interfaces that align with modern design principles and best practices.",
+          image: "/assets/hire dev/why choose us-12.svg",
       },
       {
         title: "Timely Delivery",
         description:
           "We value your time and ensure all design deliverables—wireframes, prototypes, and final assets—are completed on schedule without compromising creativity or quality.",
+          image: "/assets/hire dev/timely del.svg",
       },
       {
         title: "Transparent Communication",
         description:
           "Our design team collaborates closely with clients, maintaining open communication throughout the design process to ensure the final product matches your vision and goals.",
+          image: "/assets/hire dev/why choose us-03.svg",
       },
       {
         title: "User-Centered Approach",
         description:
           "We place users at the heart of the design process, ensuring that every interface we create is intuitive, accessible, and focused on delivering a seamless user experience.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
       {
         title: "Ongoing Design Support",
         description:
           "Our work doesn’t stop at delivery—we provide continuous design support and improvements based on user feedback and evolving market trends to keep your product fresh and engaging.",
+          image: "/assets/hire dev/why choose us-04.svg",
       },
     ],
   },
