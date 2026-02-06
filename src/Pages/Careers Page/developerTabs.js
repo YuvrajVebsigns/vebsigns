@@ -782,4 +782,202 @@ export const developerTabs = [
       },
     ],
   },
+  {
+    name: "Business Development Executive",
+    title: "Join Our Team as a Business Development Executive",
+    description:
+      "We’re looking for motivated Business Development Executives who are passionate about driving growth, building strong client relationships, and identifying new business opportunities. At Vebsigns Technologies, you’ll play a key role in expanding our market presence and contributing to the company’s overall success.",
+    image: "/assets/HomePage/Career.jpeg",
+    features: [
+      {
+        title: "Challenging Opportunities",
+        description:
+          "Work on identifying new markets, generating leads, and converting prospects into long-term clients across diverse industries.",
+        image: "/assets/Career page/12 UI UX/Challenging Projects.svg",
+      },
+      {
+        title: "Modern Sales Tools",
+        description:
+          "Gain hands-on experience with CRM tools, analytics platforms, and communication tools to streamline and enhance the sales process.",
+        image: "/assets/Career page/12 UI UX/Latest designing tools.svg",
+      },
+      {
+        title: "Collaborative Culture",
+        description:
+          "Collaborate closely with marketing, design, and development teams to align business strategies and deliver value-driven solutions.",
+        image: "/assets/Career page/12 UI UX/Collaborative Culture.svg",
+      },
+      {
+        title: "Career Growth",
+        description:
+          "Develop professionally through mentorship, sales training programs, and exposure to strategic business planning and client management.",
+        image: "/assets/Career page/12 UI UX/Career Growth.svg",
+      },
+    ],
+    benefits: [
+      {
+        title: "Flexible Work Environment",
+        description:
+          "Enjoy a balanced work-life culture with flexible working hours and hybrid/remote work options.",
+        image: "/assets/Career Icons/12 UI UX/Flexible Work Environment.svg",
+      },
+      {
+        title: "Competitive Compensation",
+        description:
+          "Receive attractive salary packages along with performance-based incentives and growth opportunities.",
+        image: "/assets/Career Icons/12 UI UX/Competitive Compensation.svg",
+      },
+      {
+        title: "Continuous Learning",
+        description:
+          "Enhance your business and sales skills through training sessions, workshops, and professional development programs.",
+        image: "/assets/Career Icons/12 UI UX/Continuous Learning.svg",
+      },
+      {
+        title: "Employee Wellbeing",
+        description:
+          "Be part of a supportive environment that promotes wellness initiatives, team bonding, and a positive workplace culture.",
+        image: "/assets/Career Icons/12 UI UX/Employee Wellbeing.svg",
+      },
+      {
+        title: "End-to-End Business Exposure",
+        description:
+          "Gain experience across the complete business development cycle, from lead generation and negotiations to client retention and growth.",
+        image:
+          "/assets/Career Icons/12 UI UX/Full Design Lifecycle Experience.svg",
+      },
+    ],
+  },
+  {
+    name: "Chief Marketing Officer (CMO)",
+    title: "Join Our Team as a Chief Marketing Officer",
+    description:
+      "We’re looking for a visionary Chief Marketing Officer who can lead our marketing strategy, strengthen brand presence, and drive sustainable business growth. At Vebsigns Technologies, you’ll shape the company’s marketing direction, oversee multi-channel campaigns, and align marketing initiatives with business objectives.",
+    image: "/assets/HomePage/Career.jpeg",
+    features: [
+      {
+        title: "Strategic Leadership",
+        description:
+          "Lead and execute high-impact marketing strategies across digital, branding, performance marketing, and growth initiatives.",
+        image: "/assets/Career page/12 UI UX/Challenging Projects.svg",
+      },
+      {
+        title: "Data-Driven Decision Making",
+        description:
+          "Leverage analytics, market insights, and customer data to optimize campaigns, improve ROI, and guide strategic decisions.",
+        image: "/assets/Career page/12 UI UX/Latest designing tools.svg",
+      },
+      {
+        title: "Cross-Functional Collaboration",
+        description:
+          "Work closely with sales, product, design, and leadership teams to ensure consistent brand messaging and business alignment.",
+        image: "/assets/Career page/12 UI UX/Collaborative Culture.svg",
+      },
+      {
+        title: "Organizational Growth",
+        description:
+          "Build, mentor, and scale high-performing marketing teams while establishing processes for long-term growth.",
+        image: "/assets/Career page/12 UI UX/Career Growth.svg",
+      },
+    ],
+    benefits: [
+      {
+        title: "Flexible Work Environment",
+        description:
+          "Enjoy a leadership-friendly work culture with flexible schedules and hybrid/remote work options.",
+        image: "/assets/Career Icons/12 UI UX/Flexible Work Environment.svg",
+      },
+      {
+        title: "Executive Compensation",
+        description:
+          "Receive a competitive executive-level compensation package aligned with performance and company growth.",
+        image: "/assets/Career Icons/12 UI UX/Competitive Compensation.svg",
+      },
+      {
+        title: "Continuous Innovation",
+        description:
+          "Stay ahead of market trends with access to advanced tools, strategic workshops, and leadership development programs.",
+        image: "/assets/Career Icons/12 UI UX/Continuous Learning.svg",
+      },
+      {
+        title: "Employee Wellbeing",
+        description:
+          "Be part of a supportive and people-first culture that values wellbeing, balance, and long-term success.",
+        image: "/assets/Career Icons/12 UI UX/Employee Wellbeing.svg",
+      },
+      {
+        title: "End-to-End Marketing Ownership",
+        description:
+          "Own the complete marketing lifecycle, from brand strategy and demand generation to customer engagement and retention.",
+        image:
+          "/assets/Career Icons/12 UI UX/Full Design Lifecycle Experience.svg",
+      },
+    ],
+  },
+  {
+    name: "Business Development Manager",
+    title: "Join Our Team as a Business Development Manager",
+    description:
+      "We’re looking for an experienced Business Development Manager who can drive revenue growth, build strategic partnerships, and lead high-impact sales initiatives. At Vebsigns Technologies, you’ll manage key accounts, develop growth strategies, and play a crucial role in scaling the business.",
+    image: "/assets/HomePage/Career.jpeg",
+    features: [
+      {
+        title: "Strategic Sales Leadership",
+        description:
+          "Plan and execute business development strategies to expand market reach and achieve revenue targets.",
+        image: "/assets/Career page/12 UI UX/Challenging Projects.svg",
+      },
+      {
+        title: "Client & Market Insights",
+        description:
+          "Analyze market trends, customer needs, and competitor activity to identify new business opportunities.",
+        image: "/assets/Career page/12 UI UX/Latest designing tools.svg",
+      },
+      {
+        title: "Cross-Team Collaboration",
+        description:
+          "Work closely with marketing, product, and delivery teams to ensure client expectations are met and exceeded.",
+        image: "/assets/Career page/12 UI UX/Collaborative Culture.svg",
+      },
+      {
+        title: "Leadership & Growth",
+        description:
+          "Mentor and guide business development executives while contributing to long-term organizational growth.",
+        image: "/assets/Career page/12 UI UX/Career Growth.svg",
+      },
+    ],
+    benefits: [
+      {
+        title: "Flexible Work Environment",
+        description:
+          "Enjoy flexible working hours and hybrid/remote work options that support a healthy work-life balance.",
+        image: "/assets/Career Icons/12 UI UX/Flexible Work Environment.svg",
+      },
+      {
+        title: "Competitive Compensation",
+        description:
+          "Receive a strong compensation package with performance-based incentives and growth rewards.",
+        image: "/assets/Career Icons/12 UI UX/Competitive Compensation.svg",
+      },
+      {
+        title: "Continuous Learning",
+        description:
+          "Enhance your leadership and sales expertise through workshops, training programs, and industry exposure.",
+        image: "/assets/Career Icons/12 UI UX/Continuous Learning.svg",
+      },
+      {
+        title: "Employee Wellbeing",
+        description:
+          "Be part of a supportive culture that promotes wellbeing, collaboration, and professional satisfaction.",
+        image: "/assets/Career Icons/12 UI UX/Employee Wellbeing.svg",
+      },
+      {
+        title: "End-to-End Business Ownership",
+        description:
+          "Manage the complete business development lifecycle, from lead generation and negotiations to account management and retention.",
+        image:
+          "/assets/Career Icons/12 UI UX/Full Design Lifecycle Experience.svg",
+      },
+    ],
+  },
 ];

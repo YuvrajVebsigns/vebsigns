@@ -50,13 +50,14 @@ const inquiries = [
 
 const experience = [
   { id: 1, name: "Fresher" },
-  { id: 2, name: "1+ year" },
-  { id: 3, name: "2+ years" },
-  { id: 4, name: "3+ years" },
-  { id: 5, name: "4+ years" },
-  { id: 6, name: "5+ years" },
-  { id: 7, name: "6 - 10+ years" },
-  { id: 8, name: "11 - 20+ years" },
+  { id: 2, name: "Less Than 1 Year" },
+  { id: 3, name: "1+ year" },
+  { id: 4, name: "2+ years" },
+  { id: 5, name: "3+ years" },
+  { id: 6, name: "4+ years" },
+  { id: 7, name: "5+ years" },
+  { id: 8, name: "6 - 10+ years" },
+  { id: 9, name: "11 - 20+ years" },
 ];
 
 export default function Careers() {
