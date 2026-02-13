@@ -23,6 +23,7 @@ const PMAHome = lazy(() => import("./Pages/Solutions/IoT Services/Predictive Mai
 const WDADHome = lazy(() => import("./Pages/Solutions/IT Services/Website Design & Development/WDADHome"));
 const ADADHome = lazy(() => import("./Pages/Solutions/IT Services/App Design & Development/ADADHome"));
 const UIUXHome = lazy(() => import("./Pages/Solutions/IT Services/UIUX/UIUXHome"));
+const AIPCHome = lazy(() => import("./Pages/Solutions/IT Services/AI-Powered Computer Vision/AIPCHome"));
 const UseCase = lazy(() => import("./Pages/Use Cases/UseCase"));
 const UseCaseSingle = lazy(() => import("./Pages/Use Cases/UseCaseSingle"));
 const HireDev = lazy(() => import("./Pages/Hire Developers/HireDevelopers"));
@@ -52,6 +53,7 @@ const AppRoutes = () => (
       <Route path="/website-design" element={<WDADHome />} />
       <Route path="/app-design" element={<ADADHome />} />
       <Route path="/uiux" element={<UIUXHome />} />
+      <Route path="/ai-powered-computer-vision" element={<AIPCHome />} />
       <Route path="/use-cases" element={<UseCase />} />
       <Route path="/use-cases/:slug" element={<UseCaseSingle />} />
       <Route path="/hire-developers" element={<HireDev />} />

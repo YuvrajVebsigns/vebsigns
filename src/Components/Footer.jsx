@@ -316,9 +316,10 @@ const Footer = () => {
               alt="India Flag"
               class="w-16 h-16 object-contain"
             />
-            <div class="flex flex-col">
+            <div class="flex flex-col gap-3">
               <h4 class="text-base font-semibold">India</h4>
               <p class="text-sm font-medium text-white">911,221 Gera Imperium Rise, Hinjewadi Phase - 2, Pune, Maharashtra 411057</p>
+              <p class="text-sm font-medium text-white">Unit No 405-411, 4th Floor, Bizness Square Junction, opposite Hitex Road, Jubilee Enclave, HITEC City, Madhapur, Hyderabad, Telangana 500081</p>
             </div>
           </div>
 

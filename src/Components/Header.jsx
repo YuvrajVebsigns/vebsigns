@@ -235,6 +235,17 @@ export default function Header() {
                                                     </span>
                                                     <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
                                                 </Link>
+                                                <Link
+                                                    to="/ai-powered-computer-vision"
+                                                    className="relative flex items-center gap-2 rounded px-2 py-1 overflow-hidden group"
+                                                >
+                                                    <span className="relative z-10 flex items-center gap-2">
+                                                        {/* <BrainCircuit size={24} /> */}
+                                                        <img src="/assets/AIML/page 1-02.svg" alt="" className='w-[30px]' />
+                                                        <span>AI Powered Computer Vision</span>
+                                                    </span>
+                                                    <span className="absolute left-0 top-0 h-full w-0 bg-blue-50 transition-all duration-300 group-hover:w-full"></span>
+                                                </Link>
 
                                                 <Link
                                                     to="/data-science"
@@ -523,6 +534,9 @@ export default function Header() {
                                             >
                                                 <Link to="/ai-ml-strategy" className="block hover:text-blue-600" onClick={toggleDrawer}>
                                                     AI/ML Strategy and Consulting
+                                                </Link>
+                                                <Link to="/ai-powered-computer-vision" className="block hover:text-blue-600" onClick={toggleDrawer}>
+                                                    AI Powered Computer Vision
                                                 </Link>
                                                 <Link to="/data-science" className="block hover:text-blue-600" onClick={toggleDrawer}>
                                                     Data Science and Data Analytics
