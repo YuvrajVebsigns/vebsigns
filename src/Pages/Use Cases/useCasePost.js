@@ -410,4 +410,256 @@ export const blogPosts = [
       },
     ],
   },
+  {
+    id: 6,
+    category: ["EdTech", "Acting School", "Web & Mobile App"],
+    title:
+      "The Actors Truth: Empowering aspiring actors through digital learning & casting access",
+    slug: "the-actors-truth-acting-edtech-platform",
+    excerpt:
+      "The Actors Truth is an acting training and talent development platform offering structured courses, workshops, and casting guidance for aspiring actors. We developed their web application along with iOS and Android mobile apps to streamline learning and engagement.",
+    image: "/assets/HomePage/TAT1.png",
+    author: "The Actors Truth Team",
+    date: "October 10, 2025",
+    points: [
+      "Professional acting training & talent grooming platform",
+      "Offers structured courses, workshops & mentorship programs",
+      "Digital learning access via Web, iOS & Android apps",
+      "Community-driven platform for aspiring actors",
+      "Focused on practical industry exposure & casting insights",
+    ],
+    solutions:
+      "We designed and developed a complete digital ecosystem for The Actors Truth including a scalable web application and native iOS & Android mobile apps. The platform enables students to enroll in courses, access video lessons, track progress, participate in workshops, and stay updated with casting-related insights — all within a seamless and user-friendly interface.",
+    content: [
+      {
+        type: "heading",
+        content:
+          "<h3 class='text-xl font-normal leading-relaxed'>Digitizing acting education & talent development</h3>",
+      },
+      {
+        type: "paragraph",
+        content:
+          "<p class='mt-4 text-lg leading-relaxed'>The Actors Truth aims to bridge the gap between aspiring actors and the entertainment industry by providing structured training and real-world guidance. To support their growth and digital vision, we built a comprehensive web platform along with iOS and Android mobile applications, making professional acting education accessible anytime, anywhere.</p>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Challenges & Objectives</h2>",
+      },
+      {
+        type: "list",
+        content:
+          "<ul class='mt-6 space-y-3 text-lg'><li>Creating a centralized platform for managing courses, workshops, and student enrollments.</li><li>Ensuring seamless video content delivery across web and mobile devices.</li><li>Providing an intuitive user experience for students with varying technical familiarity.</li><li>Enabling scalable architecture to support a growing student base.</li><li>Maintaining consistent performance across iOS and Android platforms.</li></ul>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Workflow</h2>",
+      },
+      {
+        type: "paragraph",
+        content:
+          "<p class='mt-4 text-lg leading-relaxed'>We developed a responsive web application integrated with secure backend systems for course management, user authentication, and content delivery. Native mobile apps for iOS and Android were built to ensure smooth streaming, real-time updates, and push notifications. The admin panel allows the team to manage content, students, and program updates efficiently, while analytics help track engagement and performance.</p>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Benefits & Impact</h2>",
+      },
+      {
+        type: "list",
+        content:
+          "<ul class='mt-6 space-y-3 text-lg'><li><strong>Digital scalability:</strong> Ability to onboard and manage a growing number of aspiring actors efficiently.</li><li><strong>Multi-platform accessibility:</strong> Students can access courses via web, iOS, and Android devices.</li><li><strong>Improved engagement:</strong> Structured learning modules and notifications keep users actively involved.</li><li><strong>Centralized management:</strong> Admin team can manage courses, users, and updates from a single dashboard.</li><li><strong>Stronger brand positioning:</strong> A professional digital presence enhances credibility in the acting education industry.</li></ul>",
+      },
+    ],
+  },
+  {
+    id: 7,
+    category: ["Sustainability", "Waste Management", "Web & Mobile App"],
+    title:
+      "Junkky: Transforming doorstep scrap collection with intuitive Web & Mobile apps",
+    slug: "junkky-sustainable-scrap-collection-platform",
+    excerpt:
+      "Junkky is a Pune-based waste recycling and scrap management platform that connects users with efficient doorstep pickup and sustainable recycling solutions. We developed their web platform along with native iOS and Android mobile applications to streamline booking, pickup scheduling, and instant payments.",
+    image: "/assets/HomePage/Junkyy1.png",
+    author: "Junkky Team",
+    date: "November 15, 2025",
+    points: [
+      "Pune-origin sustainable scrap & waste collection service",
+      "Offers doorstep pickup of recyclable materials like paper, plastic, metal, e-waste, textiles",
+      "Users get instant payment at pickup",
+      "Web application plus iOS & Android mobile apps developed",
+      "Focus on friendly, transparent, and professional waste collection experience",
+    ],
+    solutions:
+      "We built a complete digital ecosystem for Junkky — including a responsive web app and native iOS/Android apps — enabling users to schedule scrap pickups, track services, receive market-rate quotes, and handle instant payments. The solution ensures high availability, easy booking flows, and seamless UX across devices.",
+    content: [
+      {
+        type: "heading",
+        content:
+          "<h3 class='text-xl font-normal leading-relaxed'>Digitizing waste management with user-centric platforms</h3>",
+      },
+      {
+        type: "paragraph",
+        content:
+          "<p class='mt-4 text-lg leading-relaxed'>Junkky operates at the intersection of sustainability and convenience, offering residents of Pune a modern alternative to traditional scrap collection. To support its mission of simplifying recycling and improving user experience, we developed a scalable web application and native mobile apps for both iOS and Android devices. These tools allow users to easily request pickups, manage their profiles, and receive real-time updates.</p>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Challenges & Objectives</h2>",
+      },
+      {
+        type: "list",
+        content:
+          "<ul class='mt-6 space-y-3 text-lg'><li>Building a platform that enabled simple scheduling and real-time service tracking for users of all ages.</li><li>Ensuring support for multiple recyclable categories including paper, plastic, metals, e-waste, and textiles.</li><li>Providing clear payment workflows with transparent weighing and instant payouts.</li><li>Maintaining seamless performance and consistent UI behavior across web, iOS, and Android.</li><li>Supporting backend scalability to manage pickup requests and partner coordination efficiently.</li></ul>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Workflow</h2>",
+      },
+      {
+        type: "paragraph",
+        content:
+          "<p class='mt-4 text-lg leading-relaxed'>Our team architected a robust backend with user authentication, pickup scheduling, material categorization, and secure payment processing. The responsive web app offers intuitive navigation for scheduling pickups and accessing service history, while the native mobile apps for iOS and Android were optimized for offline convenience, notifications, and seamless bookings. Admin dashboards enable Junkky operators to manage requests, assign pickup personnel, and review engagement metrics.</p>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Benefits & Impact</h2>",
+      },
+      {
+        type: "list",
+        content:
+          "<ul class='mt-6 space-y-3 text-lg'><li><strong>Enhanced accessibility:</strong> Users can schedule scrap pickups easily via web or mobile apps.</li><li><strong>Instant payments:</strong> Transparent weighing and competitive pricing makes recycling rewarding for users.</li><li><strong>Multi-platform experience:</strong> Consistent and fluid experience across web, iOS, and Android.</li><li><strong>Boosted operational efficiency:</strong> Admin dashboards streamline request management and pickup coordination.</li><li><strong>Sustainability impact:</strong> Encourages responsible waste disposal and supports Pune’s circular economy efforts.</li></ul>",
+      },
+    ],
+  },
+  {
+    id: 8,
+    category: ["Oil & Energy", "Industrial IoT", "Mobile App"],
+    title:
+      "ONGC: Mobile-First Well Monitoring & Data Visualisation for Operational Excellence",
+    slug: "ongc-well-monitoring-mobile-platform",
+    excerpt:
+      "ONGC is India’s leading oil & gas exploration and production company. We developed a robust mobile application for real-time well monitoring, operational insights, and data visualisation to support field engineers and decision-makers.",
+    image: "/assets/HomePage/ONGC.jpg",
+    author: "ONGC Digital Team",
+    date: "December 5, 2025",
+    points: [
+      "Digital mobility solution for well monitoring & operations",
+      "Supports real-time data access across remote locations",
+      "Easy insights for field engineers, supervisors & analysts",
+      "Mobile UI designed for reliability under field conditions",
+      "Integration with industrial sensors and backend datasets",
+    ],
+    solutions:
+      "We designed and developed a native mobile application for ONGC to provide field engineers and stakeholders with real-time access to well performance data, alerts, analytics, and documentation. The app integrates with IoT sensors, backend systems, and reporting tools to enable instant monitoring and faster decision-making across remote wells and operational units.",
+    content: [
+      {
+        type: "heading",
+        content:
+          "<h3 class='text-xl font-normal leading-relaxed'>Mobilising well monitoring & field operations</h3>",
+      },
+      {
+        type: "paragraph",
+        content:
+          "<p class='mt-4 text-lg leading-relaxed'>ONGC’s operations span across remote and geographically dispersed oil & gas fields. To improve responsiveness, reduce downtime, and empower field teams with up-to-date information, we developed a mobile application that delivers well status, sensor feeds, alerts, and historical trends directly to engineers’ devices. The solution emphasises clarity, performance, and usability in challenging connectivity conditions.</p>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Challenges & Objectives</h2>",
+      },
+      {
+        type: "list",
+        content:
+          "<ul class='mt-6 space-y-3 text-lg'><li>Providing reliable access to well performance metrics in real time from remote field locations.</li><li>Designing an app interface that is intuitive for field engineers and supervisors alike.</li><li>Ensuring secure connectivity with backend servers and IoT sensor networks.</li><li>Handling intermittent network connectivity at remote sites with offline caching.</li><li>Delivering actionable insights through visualisation and alert systems for quicker response.</li></ul>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Workflow</h2>",
+      },
+      {
+        type: "paragraph",
+        content:
+          "<p class='mt-4 text-lg leading-relaxed'>The mobile platform was developed with a secure API layer connecting to ONGC’s backend data sources and sensor networks. It provides real-time dashboards, alerts, trend graphs, and well reports through an intuitive UX designed for field use. Offline caching ensures that critical information is available even with low connectivity, while sync mechanisms update data whenever network access is restored. Role-based access ensures appropriate data visibility for engineers, supervisors, and analysts.</p>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Benefits & Impact</h2>",
+      },
+      {
+        type: "list",
+        content:
+          "<ul class='mt-6 space-y-3 text-lg'><li><strong>Real-Time visibility:</strong> Field personnel can access live well metrics anytime, improving decision-making.</li><li><strong>Operational responsiveness:</strong> Alerts and insights help detect anomalies and reduce downtime.</li><li><strong>Mobile-first experience:</strong> Custom UI designed for rugged field use and varying network conditions.</li><li><strong>Data-Driven decisions:</strong> Visual trend analysis and reports support supervisors and analysts.</li><li><strong>Offline support:</strong> Cached data ensures continuity even in low-connectivity zones.</li></ul>",
+      },
+    ],
+  },
+  // {
+  //   id: 9,
+  //   category: ["Government", "Railways", "IoT & Smart Monitoring"],
+  //   title:
+  //     "Indian Railways – IFD: Smart IoT-Based Monitoring for Railway Station Infrastructure",
+  //   slug: "indian-railways-ifd-iot-monitoring",
+  //   excerpt:
+  //     "For Indian Railways – IFD, we implemented IoT-enabled monitoring systems across railway stations to track infrastructure assets, environmental parameters, and operational data in real time, improving efficiency, safety, and proactive maintenance.",
+  //   image: "/assets/HomePage/IR.gif",
+  //   author: "IFD Digital Team",
+  //   date: "January 15, 2026",
+  //   points: [
+  //     "IoT device deployment across railway stations",
+  //     "Real-time infrastructure & environmental monitoring",
+  //     "Centralized dashboard for live data visibility",
+  //     "Supports preventive maintenance & operational efficiency",
+  //     "Scalable system architecture for multi-station deployment",
+  //   ],
+  //   solutions:
+  //     "We deployed IoT devices integrated with a centralized monitoring platform for Indian Railways – IFD. The system captures real-time data from station infrastructure and transmits it securely to backend servers for analysis, alerts, and reporting. The solution enables railway authorities to monitor station assets remotely and respond proactively to operational issues.",
+  //   content: [
+  //     {
+  //       type: "heading",
+  //       content:
+  //         "<h3 class='text-xl font-normal leading-relaxed'>Digitizing railway infrastructure with IoT intelligence</h3>",
+  //     },
+  //     {
+  //       type: "paragraph",
+  //       content:
+  //         "<p class='mt-4 text-lg leading-relaxed'>To enhance operational visibility and infrastructure management, we implemented IoT-based monitoring solutions across selected railway stations under Indian Railways – IFD. The system continuously captures key data points related to station infrastructure and environmental conditions, enabling centralized oversight and smarter decision-making.</p>",
+  //     },
+  //     {
+  //       type: "heading",
+  //       content:
+  //         "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Challenges & Objectives</h2>",
+  //     },
+  //     {
+  //       type: "list",
+  //       content:
+  //         "<ul class='mt-6 space-y-3 text-lg'><li>Monitoring distributed railway infrastructure assets across multiple stations.</li><li>Ensuring real-time data transmission from IoT devices to centralized systems.</li><li>Maintaining reliability and durability of devices in high-traffic public environments.</li><li>Enabling alert systems for abnormal readings or equipment failures.</li><li>Creating scalable architecture for expansion to additional stations.</li></ul>",
+  //     },
+  //     {
+  //       type: "heading",
+  //       content:
+  //         "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Workflow</h2>",
+  //     },
+  //     {
+  //       type: "paragraph",
+  //       content:
+  //         "<p class='mt-4 text-lg leading-relaxed'>IoT devices were installed at railway stations to collect data such as equipment status, environmental parameters, and infrastructure performance metrics. The devices transmit data securely to a centralized server via network gateways. A monitoring dashboard provides railway officials with live insights, trend analysis, and automated alerts. The system is designed for high availability, secure communication, and future scalability across additional stations.</p>",
+  //     },
+  //     {
+  //       type: "heading",
+  //       content:
+  //         "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Benefits & Impact</h2>",
+  //     },
+  //     {
+  //       type: "list",
+  //       content:
+  //         "<ul class='mt-6 space-y-3 text-lg'><li><strong>Real-Time Monitoring:</strong> Continuous visibility of infrastructure health and operational data.</li><li><strong>Preventive Maintenance:</strong> Early detection of issues reduces downtime and service disruptions.</li><li><strong>Centralized Control:</strong> Authorities can monitor multiple stations from a single dashboard.</li><li><strong>Improved Efficiency:</strong> Faster response times to anomalies and operational challenges.</li><li><strong>Scalable Deployment:</strong> Architecture supports expansion across more railway stations.</li></ul>",
+  //     },
+  //   ],
+  // },
 ];
