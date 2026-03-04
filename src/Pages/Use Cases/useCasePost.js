@@ -410,36 +410,105 @@ export const blogPosts = [
       },
     ],
   },
-  {
+
+// ===========================================================================================================================
+  
+// {
+//     id: 6,
+//     category: ["EdTech", "Acting School", "Web & Mobile App"],
+//     title:
+//       "The Actors Truth: Empowering aspiring actors through digital learning & casting access",
+//     slug: "the-actors-truth-acting-edtech-platform",
+//     excerpt:
+//       "The Actors Truth is an acting training and talent development platform offering structured courses, workshops, and casting guidance for aspiring actors. We developed their web application along with iOS and Android mobile apps to streamline learning and engagement.",
+//     image: "/assets/HomePage/TAT1.png",
+//     author: "The Actors Truth Team",
+//     date: "October 10, 2025",
+//     points: [
+//       "Professional acting training & talent grooming platform",
+//       "Offers structured courses, workshops & mentorship programs",
+//       "Digital learning access via Web, iOS & Android apps",
+//       "Community-driven platform for aspiring actors",
+//       "Focused on practical industry exposure & casting insights",
+//     ],
+//     solutions:
+//       "We designed and developed a complete digital ecosystem for The Actors Truth including a scalable web application and native iOS & Android mobile apps. The platform enables students to enroll in courses, access video lessons, track progress, participate in workshops, and stay updated with casting-related insights — all within a seamless and user-friendly interface.",
+//     content: [
+//       {
+//         type: "heading",
+//         content:
+//           "<h3 class='text-xl font-normal leading-relaxed'>Digitizing acting education & talent development</h3>",
+//       },
+//       {
+//         type: "paragraph",
+//         content:
+//           "<p class='mt-4 text-lg leading-relaxed'>The Actors Truth aims to bridge the gap between aspiring actors and the entertainment industry by providing structured training and real-world guidance. To support their growth and digital vision, we built a comprehensive web platform along with iOS and Android mobile applications, making professional acting education accessible anytime, anywhere.</p>",
+//       },
+//       {
+//         type: "heading",
+//         content:
+//           "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Challenges & Objectives</h2>",
+//       },
+//       {
+//         type: "list",
+//         content:
+//           "<ul class='mt-6 space-y-3 text-lg'><li>Creating a centralized platform for managing courses, workshops, and student enrollments.</li><li>Ensuring seamless video content delivery across web and mobile devices.</li><li>Providing an intuitive user experience for students with varying technical familiarity.</li><li>Enabling scalable architecture to support a growing student base.</li><li>Maintaining consistent performance across iOS and Android platforms.</li></ul>",
+//       },
+//       {
+//         type: "heading",
+//         content:
+//           "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Workflow</h2>",
+//       },
+//       {
+//         type: "paragraph",
+//         content:
+//           "<p class='mt-4 text-lg leading-relaxed'>We developed a responsive web application integrated with secure backend systems for course management, user authentication, and content delivery. Native mobile apps for iOS and Android were built to ensure smooth streaming, real-time updates, and push notifications. The admin panel allows the team to manage content, students, and program updates efficiently, while analytics help track engagement and performance.</p>",
+//       },
+//       {
+//         type: "heading",
+//         content:
+//           "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Benefits & Impact</h2>",
+//       },
+//       {
+//         type: "list",
+//         content:
+//           "<ul class='mt-6 space-y-3 text-lg'><li><strong>Digital scalability:</strong> Ability to onboard and manage a growing number of aspiring actors efficiently.</li><li><strong>Multi-platform accessibility:</strong> Students can access courses via web, iOS, and Android devices.</li><li><strong>Improved engagement:</strong> Structured learning modules and notifications keep users actively involved.</li><li><strong>Centralized management:</strong> Admin team can manage courses, users, and updates from a single dashboard.</li><li><strong>Stronger brand positioning:</strong> A professional digital presence enhances credibility in the acting education industry.</li></ul>",
+//       },
+//     ],
+//   },
+
+  // ==========================================================================================================================
+      {
     id: 6,
     category: ["EdTech", "Acting School", "Web & Mobile App"],
     title:
-      "The Actors Truth: Empowering aspiring actors through digital learning & casting access",
-    slug: "the-actors-truth-acting-edtech-platform",
+      "The Actors Truth: Learn Acting from Bollywood Mentor Saurav Sachdeva ",
+    slug: "learn-acting-from-saurav-sachdeva-the-actors-truth-app",
     excerpt:
-      "The Actors Truth is an acting training and talent development platform offering structured courses, workshops, and casting guidance for aspiring actors. We developed their web application along with iOS and Android mobile apps to streamline learning and engagement.",
+      "The Actors Truth, founded by Bollywood actor and acting coach Saurav Sachdeva, is a professional acting academy offering structured training, mentorship, and casting guidance. We developed their scalable web platform along with iOS and Android mobile apps to deliver premium acting education digitally.",
     image: "/assets/HomePage/TAT1.png",
     author: "The Actors Truth Team",
     date: "October 10, 2025",
     points: [
-      "Professional acting training & talent grooming platform",
-      "Offers structured courses, workshops & mentorship programs",
+      "Learn directly from Bollywood actor & mentor Saurav Sachdeva",
+      "Structured acting courses with real-world industry exposure",
+      "Live workshops, mentorship & audition guidance",
       "Digital learning access via Web, iOS & Android apps",
       "Community-driven platform for aspiring actors",
-      "Focused on practical industry exposure & casting insights",
+      "Integrated casting insights & performance tracking system",
     ],
     solutions:
-      "We designed and developed a complete digital ecosystem for The Actors Truth including a scalable web application and native iOS & Android mobile apps. The platform enables students to enroll in courses, access video lessons, track progress, participate in workshops, and stay updated with casting-related insights — all within a seamless and user-friendly interface.",
+      "We designed and developed a complete digital ecosystem for The Actors Truth, transforming traditional acting education into a scalable online academy. The solution includes a high-performance web application and native iOS & Android mobile apps, enabling students to enroll in courses, stream HD video lessons, track progress, receive casting updates, participate in workshops, and engage with the acting community — all within a seamless, secure, and user-friendly interface.",
     content: [
       {
         type: "heading",
         content:
-          "<h3 class='text-xl font-normal leading-relaxed'>Digitizing acting education & talent development</h3>",
+          "<h3 class='text-xl font-normal leading-relaxed'>Bringing Bollywood-level acting mentorship to digital platforms</h3>",
       },
       {
         type: "paragraph",
         content:
-          "<p class='mt-4 text-lg leading-relaxed'>The Actors Truth aims to bridge the gap between aspiring actors and the entertainment industry by providing structured training and real-world guidance. To support their growth and digital vision, we built a comprehensive web platform along with iOS and Android mobile applications, making professional acting education accessible anytime, anywhere.</p>",
+          "<p class='mt-4 text-lg leading-relaxed'>Founded by renowned Bollywood actor and acting coach Saurav Sachdeva, The Actors Truth empowers aspiring actors with professional training rooted in real industry experience. To support their mission of accessible and scalable acting education, we built a comprehensive web platform along with feature-rich iOS and Android mobile applications — enabling students to learn directly from Saurav Sachdeva anytime, anywhere.</p>",
       },
       {
         type: "heading",
@@ -449,27 +518,27 @@ export const blogPosts = [
       {
         type: "list",
         content:
-          "<ul class='mt-6 space-y-3 text-lg'><li>Creating a centralized platform for managing courses, workshops, and student enrollments.</li><li>Ensuring seamless video content delivery across web and mobile devices.</li><li>Providing an intuitive user experience for students with varying technical familiarity.</li><li>Enabling scalable architecture to support a growing student base.</li><li>Maintaining consistent performance across iOS and Android platforms.</li></ul>",
+          "<ul class='mt-6 space-y-3 text-lg'><li>Digitizing premium acting education led by a Bollywood mentor.</li><li>Creating a centralized system to manage courses, workshops, and student enrollments.</li><li>Ensuring seamless HD video streaming across web and mobile devices.</li><li>Providing intuitive UX for users from diverse technical backgrounds.</li><li>Building a scalable infrastructure to support a growing national and global student base.</li></ul>",
       },
       {
         type: "heading",
         content:
-          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Workflow</h2>",
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Platform Development</h2>",
       },
       {
         type: "paragraph",
         content:
-          "<p class='mt-4 text-lg leading-relaxed'>We developed a responsive web application integrated with secure backend systems for course management, user authentication, and content delivery. Native mobile apps for iOS and Android were built to ensure smooth streaming, real-time updates, and push notifications. The admin panel allows the team to manage content, students, and program updates efficiently, while analytics help track engagement and performance.</p>",
+          "<p class='mt-4 text-lg leading-relaxed'>We engineered a robust digital ecosystem consisting of a responsive web application integrated with a secure backend for course management, payments, user authentication, and analytics. Native iOS and Android applications were developed to provide smooth streaming, progress dashboards, push notifications for casting calls, and real-time updates. An advanced admin panel enables the team to manage students, content, workshops, and announcements efficiently while tracking engagement metrics.</p>",
       },
       {
         type: "heading",
         content:
-          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Benefits & Impact</h2>",
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Impact & Business Growth</h2>",
       },
       {
         type: "list",
         content:
-          "<ul class='mt-6 space-y-3 text-lg'><li><strong>Digital scalability:</strong> Ability to onboard and manage a growing number of aspiring actors efficiently.</li><li><strong>Multi-platform accessibility:</strong> Students can access courses via web, iOS, and Android devices.</li><li><strong>Improved engagement:</strong> Structured learning modules and notifications keep users actively involved.</li><li><strong>Centralized management:</strong> Admin team can manage courses, users, and updates from a single dashboard.</li><li><strong>Stronger brand positioning:</strong> A professional digital presence enhances credibility in the acting education industry.</li></ul>",
+          "<ul class='mt-6 space-y-3 text-lg'><li><strong>Global accessibility:</strong> Students can now learn directly from Saurav Sachdeva via web and mobile apps from anywhere.</li><li><strong>Scalable digital academy:</strong> Seamless onboarding and course management for growing enrollments.</li><li><strong>Enhanced engagement:</strong> Structured modules, notifications, and casting updates increase retention.</li><li><strong>Professional brand positioning:</strong> A strong digital presence elevates credibility in the acting education industry.</li><li><strong>Operational efficiency:</strong> Centralized admin dashboard simplifies content and student management.</li></ul>",
       },
     ],
   },
@@ -536,6 +605,7 @@ export const blogPosts = [
       },
     ],
   },
+
   {
     id: 8,
     category: ["Oil & Energy", "Industrial IoT", "Mobile App"],
@@ -544,7 +614,7 @@ export const blogPosts = [
     slug: "ongc-well-monitoring-mobile-platform",
     excerpt:
       "ONGC is India’s leading oil & gas exploration and production company. We developed a robust mobile application for real-time well monitoring, operational insights, and data visualisation to support field engineers and decision-makers.",
-    image: "/assets/HomePage/ONGC.jpg",
+    image: "/assets/HomePage/ONGC2.jpg.jpeg",
     author: "ONGC Digital Team",
     date: "December 5, 2025",
     points: [
@@ -599,67 +669,67 @@ export const blogPosts = [
       },
     ],
   },
-  // {
-  //   id: 9,
-  //   category: ["Government", "Railways", "IoT & Smart Monitoring"],
-  //   title:
-  //     "Indian Railways – IFD: Smart IoT-Based Monitoring for Railway Station Infrastructure",
-  //   slug: "indian-railways-ifd-iot-monitoring",
-  //   excerpt:
-  //     "For Indian Railways – IFD, we implemented IoT-enabled monitoring systems across railway stations to track infrastructure assets, environmental parameters, and operational data in real time, improving efficiency, safety, and proactive maintenance.",
-  //   image: "/assets/HomePage/IR.gif",
-  //   author: "IFD Digital Team",
-  //   date: "January 15, 2026",
-  //   points: [
-  //     "IoT device deployment across railway stations",
-  //     "Real-time infrastructure & environmental monitoring",
-  //     "Centralized dashboard for live data visibility",
-  //     "Supports preventive maintenance & operational efficiency",
-  //     "Scalable system architecture for multi-station deployment",
-  //   ],
-  //   solutions:
-  //     "We deployed IoT devices integrated with a centralized monitoring platform for Indian Railways – IFD. The system captures real-time data from station infrastructure and transmits it securely to backend servers for analysis, alerts, and reporting. The solution enables railway authorities to monitor station assets remotely and respond proactively to operational issues.",
-  //   content: [
-  //     {
-  //       type: "heading",
-  //       content:
-  //         "<h3 class='text-xl font-normal leading-relaxed'>Digitizing railway infrastructure with IoT intelligence</h3>",
-  //     },
-  //     {
-  //       type: "paragraph",
-  //       content:
-  //         "<p class='mt-4 text-lg leading-relaxed'>To enhance operational visibility and infrastructure management, we implemented IoT-based monitoring solutions across selected railway stations under Indian Railways – IFD. The system continuously captures key data points related to station infrastructure and environmental conditions, enabling centralized oversight and smarter decision-making.</p>",
-  //     },
-  //     {
-  //       type: "heading",
-  //       content:
-  //         "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Challenges & Objectives</h2>",
-  //     },
-  //     {
-  //       type: "list",
-  //       content:
-  //         "<ul class='mt-6 space-y-3 text-lg'><li>Monitoring distributed railway infrastructure assets across multiple stations.</li><li>Ensuring real-time data transmission from IoT devices to centralized systems.</li><li>Maintaining reliability and durability of devices in high-traffic public environments.</li><li>Enabling alert systems for abnormal readings or equipment failures.</li><li>Creating scalable architecture for expansion to additional stations.</li></ul>",
-  //     },
-  //     {
-  //       type: "heading",
-  //       content:
-  //         "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Workflow</h2>",
-  //     },
-  //     {
-  //       type: "paragraph",
-  //       content:
-  //         "<p class='mt-4 text-lg leading-relaxed'>IoT devices were installed at railway stations to collect data such as equipment status, environmental parameters, and infrastructure performance metrics. The devices transmit data securely to a centralized server via network gateways. A monitoring dashboard provides railway officials with live insights, trend analysis, and automated alerts. The system is designed for high availability, secure communication, and future scalability across additional stations.</p>",
-  //     },
-  //     {
-  //       type: "heading",
-  //       content:
-  //         "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Benefits & Impact</h2>",
-  //     },
-  //     {
-  //       type: "list",
-  //       content:
-  //         "<ul class='mt-6 space-y-3 text-lg'><li><strong>Real-Time Monitoring:</strong> Continuous visibility of infrastructure health and operational data.</li><li><strong>Preventive Maintenance:</strong> Early detection of issues reduces downtime and service disruptions.</li><li><strong>Centralized Control:</strong> Authorities can monitor multiple stations from a single dashboard.</li><li><strong>Improved Efficiency:</strong> Faster response times to anomalies and operational challenges.</li><li><strong>Scalable Deployment:</strong> Architecture supports expansion across more railway stations.</li></ul>",
-  //     },
-  //   ],
-  // },
+  {
+    id: 9,
+    category: ["Government", "Railways", "IoT & Smart Monitoring"],
+    title:
+      "Indian Railways – IFD: Smart IoT-Based Monitoring for Railway Station Infrastructure",
+    slug: "indian-railways-ifd-iot-monitoring",
+    excerpt:
+      "For Indian Railways – IFD, we implemented IoT-enabled monitoring systems across railway stations to track infrastructure assets, environmental parameters, and operational data in real time, improving efficiency, safety, and proactive maintenance.",
+    image: "/assets/HomePage/IR2.gif.jpeg",
+    author: "IFD Digital Team",
+    date: "January 15, 2026",
+    points: [
+      "IoT device deployment across railway stations",
+      "Real-time infrastructure & environmental monitoring",
+      "Centralized dashboard for live data visibility",
+      "Supports preventive maintenance & operational efficiency",
+      "Scalable system architecture for multi-station deployment",
+    ],
+    solutions:
+      "We deployed IoT devices integrated with a centralized monitoring platform for Indian Railways – IFD. The system captures real-time data from station infrastructure and transmits it securely to backend servers for analysis, alerts, and reporting. The solution enables railway authorities to monitor station assets remotely and respond proactively to operational issues.",
+    content: [
+      {
+        type: "heading",
+        content:
+          "<h3 class='text-xl font-normal leading-relaxed'>Digitizing railway infrastructure with IoT intelligence</h3>",
+      },
+      {
+        type: "paragraph",
+        content:
+          "<p class='mt-4 text-lg leading-relaxed'>To enhance operational visibility and infrastructure management, we implemented IoT-based monitoring solutions across selected railway stations under Indian Railways – IFD. The system continuously captures key data points related to station infrastructure and environmental conditions, enabling centralized oversight and smarter decision-making.</p>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Challenges & Objectives</h2>",
+      },
+      {
+        type: "list",
+        content:
+          "<ul class='mt-6 space-y-3 text-lg'><li>Monitoring distributed railway infrastructure assets across multiple stations.</li><li>Ensuring real-time data transmission from IoT devices to centralized systems.</li><li>Maintaining reliability and durability of devices in high-traffic public environments.</li><li>Enabling alert systems for abnormal readings or equipment failures.</li><li>Creating scalable architecture for expansion to additional stations.</li></ul>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Solution Architecture & Workflow</h2>",
+      },
+      {
+        type: "paragraph",
+        content:
+          "<p class='mt-4 text-lg leading-relaxed'>IoT devices were installed at railway stations to collect data such as equipment status, environmental parameters, and infrastructure performance metrics. The devices transmit data securely to a centralized server via network gateways. A monitoring dashboard provides railway officials with live insights, trend analysis, and automated alerts. The system is designed for high availability, secure communication, and future scalability across additional stations.</p>",
+      },
+      {
+        type: "heading",
+        content:
+          "<h2 class='mt-10 text-2xl font-bold text-gray-900'>Benefits & Impact</h2>",
+      },
+      {
+        type: "list",
+        content:
+          "<ul class='mt-6 space-y-3 text-lg'><li><strong>Real-Time Monitoring:</strong> Continuous visibility of infrastructure health and operational data.</li><li><strong>Preventive Maintenance:</strong> Early detection of issues reduces downtime and service disruptions.</li><li><strong>Centralized Control:</strong> Authorities can monitor multiple stations from a single dashboard.</li><li><strong>Improved Efficiency:</strong> Faster response times to anomalies and operational challenges.</li><li><strong>Scalable Deployment:</strong> Architecture supports expansion across more railway stations.</li></ul>",
+      },
+    ],
+  },
 ];

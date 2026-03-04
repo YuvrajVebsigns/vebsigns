@@ -2,7 +2,7 @@ import React from "react";
 
 const locations = [
     {
-        name: "India",
+        name: "Pune, India",
         address: "911,221 Gera Imperium Rise, Hinjewadi Phase - 2, Pune, Maharashtra 411057",
         svg: (
                   <img src="/assets/HomePage/india.svg" className="w-[90px]" alt="India Icon" />
@@ -10,7 +10,7 @@ const locations = [
         ),
     },
     {
-        name: "India",
+        name: "Hyderabad, India",
         address: "Unit No 405-411, 4th Floor, Bizness Square Junction, opposite Hitex Road, Jubilee Enclave, HITEC City, Madhapur, Hyderabad, Telangana 500081",
         svg: (
                   <img src="/assets/HomePage/india.svg" className="w-[90px]" alt="India Icon" />

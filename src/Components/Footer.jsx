@@ -316,11 +316,31 @@ const Footer = () => {
               alt="India Flag"
               class="w-16 h-16 object-contain"
             />
-            <div class="flex flex-col gap-3">
+            {/* <div class="flex flex-col gap-3">
               <h4 class="text-base font-semibold">India</h4>
+              <h4 class="text-base font-semibold gap-0">Head office</h4>
               <p class="text-sm font-medium text-white">911,221 Gera Imperium Rise, Hinjewadi Phase - 2, Pune, Maharashtra 411057</p>
+              <h4 class="text-base font-semibold">Branch office</h4>
               <p class="text-sm font-medium text-white">Unit No 405-411, 4th Floor, Bizness Square Junction, opposite Hitex Road, Jubilee Enclave, HITEC City, Madhapur, Hyderabad, Telangana 500081</p>
-            </div>
+            </div> */}
+
+          <div class="flex flex-col gap-3">
+                {/* <h4 class="text-base font-semibold">India</h4> */}
+                <div class="flex flex-col gap-0">
+                  <h4 class="text-base font-semibold ">Head office - Pune, India</h4>
+                  <p class="text-sm font-medium text-white">
+                    911,221 Gera Imperium Rise, Hinjewadi Phase - 2, Pune, Maharashtra 411057
+                  </p>
+                </div>
+
+                <div class="flex flex-col gap-0">
+                  <h4 class="text-base font-semibold ">Branch office - Hyderabad, India</h4>
+                  <p class="text-sm font-medium text-white">
+                    Unit No 405-411, 4th Floor, Bizness Square Junction, opposite Hitex Road,
+                    Jubilee Enclave, HITEC City, Madhapur, Hyderabad, Telangana 500081
+                  </p>
+                </div>
+              </div>
           </div>
 
           <div class="flex items-center space-x-3">
@@ -329,7 +349,7 @@ const Footer = () => {
                 </path>
             </svg>
             <div class="flex flex-col">
-              <h4 class="text-base font-semibold">Canada</h4>
+              <h4 class="text-base font-semibold ">Canada</h4>
               <p class="text-sm font-medium text-white">209 - Fort York, Toronto - M5V 3K9</p>
             </div>
           </div>
